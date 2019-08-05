@@ -3,7 +3,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
-
 public class binarySearch {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -14,14 +13,12 @@ public class binarySearch {
             arr[i] = Integer.parseInt(st.nextToken());
         }
         Arrays.sort(arr);
-
         int T = Integer.parseInt(br.readLine());
         int arr1[] = new int[T];
         StringTokenizer st1 = new StringTokenizer(br.readLine());
         for (int i = 0; i < arr1.length; i++) {
             arr1[i] = Integer.parseInt(st1.nextToken());
         }
-
         for (int i = 0; i < T; i++) {
             if(BS(arr, arr1[i]) == true){
                 System.out.println('1' + " ");
