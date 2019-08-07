@@ -1,4 +1,4 @@
-public class mergeSort {
+public class MergeSort {
     static void divide(int data[], int p, int r){
         if(p<r){
             int q = (p+r)/2;
