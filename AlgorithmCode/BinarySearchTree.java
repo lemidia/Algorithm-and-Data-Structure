@@ -11,7 +11,7 @@ public class BinarySearchTree {
         }
     }
 
-    public binarySearchTree(){
+    public BinarySearchTree(){
         root = null;
     }
 
@@ -78,7 +78,7 @@ public class BinarySearchTree {
     }
 
     public static void main(String[] args) {
-        binarySearchTree bi = new binarySearchTree();
+        BinarySearchTree bi = new BinarySearchTree();
         bi.insert(5);
         bi.insertRec(bi.root,7);
         bi.insertRec(bi.root,1);

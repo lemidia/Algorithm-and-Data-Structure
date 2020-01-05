@@ -44,4 +44,6 @@ public class BinarySearch {
         }
         return false;
     }
+	public void insert(int i) {
+	}
 }
