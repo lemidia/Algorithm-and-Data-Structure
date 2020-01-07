@@ -9,7 +9,7 @@
 ### SPFA - Shortest Path Faster Algorithm
 ### Sorting
 - Quick sort
-- Merge sort
+- [Merge sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/mergesort.java)
 - Counting sort
 - Selection sort
 - Bubble sort
