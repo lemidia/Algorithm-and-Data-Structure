@@ -7,6 +7,14 @@
 ### Dijkstra Algorithm
 ### Floyd Washall Algorithm
 ### SPFA - Shortest Path Faster Algorithm
+### Sorting
+- Quick sort
+- Merge sort
+- Counting sort
+- Selection sort
+- Bubble sort
+- Insertion sort
+- Heap sort
 ### Dynamic programming
 - Fibonacchi
 - How Many Path Exist
@@ -14,14 +22,19 @@
 - Ford Fullkerson
 - Edmonds Karp
 - Max Flow Min Cost
+### Strongly Conneted Component
 ## Data structure
 ### Queue
 ### Stack
 ### Linked List
+### Array List
+### HashMap
+### Set
 ### Disjoint Set
-### Birnary Search Tree
+### Binary Search Tree
 ### Graph
 ### Tree
+### Binary Heap
 
 ## BeckJoon Online 
 ### Matter Code
