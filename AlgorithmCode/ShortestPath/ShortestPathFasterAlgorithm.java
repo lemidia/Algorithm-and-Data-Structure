@@ -1,3 +1,5 @@
+package ShortestPath;
+
 import java.io.*;
 import java.util.*;
 import java.util.LinkedList;
@@ -6,7 +8,7 @@ import java.util.LinkedList;
  * This program is to find Shortest path in weighted graph using SPFA.
  * Time Complexity : Worst case : O(VE) same as Standard Bellman ford, Average case : O(E) - not proved
  *
- * @author Lemidia(Gyeong)
+ * @author Lemidia
  */
 
 public class ShortestPathFasterAlgorithm{
