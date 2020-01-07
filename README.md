@@ -39,7 +39,7 @@
 ### Stack
 - Implementaion
 ### Linked List
-- Implementaion
+- [Linked List](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/LInkedList.java)
 ### Array List
 ### HashMap
 ### Set
