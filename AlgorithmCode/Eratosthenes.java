@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class Eratosthenes {
-    private static final int MAX = 100;
+    private static final int MAX = 30;
     public static void main(String[] args) {
 
         boolean [] flag = new boolean[MAX];

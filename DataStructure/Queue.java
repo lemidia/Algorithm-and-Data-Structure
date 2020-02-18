@@ -1,53 +1,75 @@
-/**
- * A simple queue implementation with a linkedlist
- *
- * @author William Fiset, william.alexandre.fiset@gmail.com
- */
-package com.williamfiset.algorithms.datastructures.queue;
+class QNode { 
+  int key; 
+  QNode next; 
 
-public class Queue<T> implements Iterable<T> {
+  // constructor to create a new linked list node 
+  public QNode(int key) 
+  { 
+      this.key = key; 
+      this.next = null; 
+  } 
+} 
 
-  private java.util.LinkedList<T> list = new java.util.LinkedList<T>();
+// A class to represent a queue 
+// The queue, front stores the front node of LL and rear stores the 
+// last node of LL 
+class Queue { 
+  QNode front, rear; 
 
-  public Queue() {}
+  public Queue() 
+  { 
+      this.front = this.rear = null; 
+  } 
 
-  public Queue(T firstElem) {
-    offer(firstElem);
-  }
+  // Method to add an key to the queue. 
+  void enqueue(int key) 
+  { 
 
-  // Return the size of the queue
-  public int size() {
-    return list.size();
-  }
+      // Create a new LL node 
+      QNode temp = new QNode(key); 
 
-  // Returns whether or not the queue is empty
-  public boolean isEmpty() {
-    return size() == 0;
-  }
+      // If queue is empty, then new node is front and rear both 
+      if (this.rear == null) { 
+          this.front = this.rear = temp; 
+          return; 
+      } 
 
-  // Peek the element at the front of the queue
-  // The method throws an error is the queue is empty
-  public T peek() {
-    if (isEmpty()) throw new RuntimeException("Queue Empty");
-    return list.peekFirst();
-  }
+      // Add the new node at the end of queue and change rear 
+      this.rear.next = temp; 
+      this.rear = temp; 
+  } 
 
-  // Poll an element from the front of the queue
-  // The method throws an error is the queue is empty
-  public T poll() {
-    if (isEmpty()) throw new RuntimeException("Queue Empty");
-    return list.removeFirst();
-  }
+  // 큐에서 원소를 삭제하는 연산
+  QNode dequeue() 
+  { 
+      // If queue is empty, return NULL. 
+      if (this.front == null) 
+          return null; 
 
-  // Add an element to the back of the queue
-  public void offer(T elem) {
-    list.addLast(elem);
-  }
+      // Store previous front and move front one node ahead 
+      QNode temp = this.front; 
+      this.front = this.front.next; 
 
-  // Return an iterator to alow the user to traverse
-  // through the elements found inside the queue
-  @Override
-  public java.util.Iterator<T> iterator() {
-    return list.iterator();
-  }
-}
+      // If front becomes NULL, then change rear also as NULL 
+      if (this.front == null) 
+          this.rear = null; 
+      return temp; 
+  } 
+} 
+
+// Driver class 
+public class Test { 
+  public static void main(String[] args) 
+  { 
+      Queue q = new Queue(); 
+      q.enqueue(10); 
+      q.enqueue(20); 
+      q.dequeue(); 
+      q.dequeue(); 
+      q.enqueue(30); 
+      q.enqueue(40); 
+      q.enqueue(50); 
+
+      System.out.println("Dequeued item is " + q.dequeue().key); 
+  } 
+} 
