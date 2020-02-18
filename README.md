@@ -38,7 +38,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Upstair case](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Upstair.java)
 ### Prime
 - [Eratosthenes](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Eratosthenes.java)
-### Minum Spanning Tree Algorithm
+### Minimum Spanning Tree Algorithm
 - [Kruskal's Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/KruskalAlgorithm.cpp)
 ### Network Flow
 - [Ford Fullkerson method](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/FordFulkersonMethod.java)
@@ -64,8 +64,6 @@ In computer science, a data structure is a data organization, management, and st
 - [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/DaynamicArray.java)
 ### Disjoint Set - Union Find by Rank with Path Compression
 - [Implemention](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/UnionFind.java)
-### Hash Table
-### Set
 ### Tree
 - [Implemention](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinaryTree.java)
 ### Binary Search Tree
