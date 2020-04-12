@@ -12,9 +12,11 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### Back Tracking - 백트래킹
 - N Queen
 - Sudoku
+
 ### String manipulation - 문자열 조작
 - Palindrome
 - [String Permution](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/StringPermutation.java)
+
 ### Tree Traversal - 트리순회
 - [Pre order](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/PreorderTraversal.java)
 - [In order](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/InorderTraversal.java)
@@ -43,10 +45,10 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Fibonacchi - Bottom up Manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Fibonacci.java)
 - Fibonacchi - Top down Manner(Recursive + Memoization)
 - Coin Change - 동전교환
-- LCS(Logest Common Subsequence) - 최장 공통 부분순서(Compare with 3 String)
+- [LCS(Logest Common Subsequence)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LCS.java) - 최장 공통 부분순서(Compare with 3 String)
 - LIS(Logest Increasing Subsequence) - 최장 증가 부분순서
 - Edit Distance - 편집거리
-- How Many Paths are exist - 격자 경로 문제
+- [격자 경로 문제](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/HowManyPaths.java)
 - Matrix Multiplication
 - [Stair Case Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Upstair.java)
 
@@ -55,7 +57,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 ### Minimum Spanning Tree Algorithm - 최소신장트리
 - [Kruskal's Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/KruskalAlgorithm.cpp)
-- [Prim's Algorithm]
+- [Prim's Algorithm]()
 
 ### Network Flow - 네트워크 유량
 - [Ford Fullkerson method](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/FordFulkersonMethod.java)
@@ -100,6 +102,6 @@ In computer science, a data structure is a data organization, management, and st
 ### Segment Tree - 세그먼트 트리
 - [Implementation]
 ### Trie or Prefix Tree - 트라이, 접두사 트리
-- [Implementation]
+- [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/TrieTree.java)
 ### Bit Manipulation - 비트 조작
 - [Use case](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BitManipulation.java)
