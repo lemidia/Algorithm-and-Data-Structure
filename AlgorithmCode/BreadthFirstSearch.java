@@ -1,4 +1,3 @@
-import java.util.*;
 import java.util.Queue;
 import java.util.LinkedList;
 
@@ -13,7 +12,6 @@ public class BreadthFirstSearch{
             for(int i = 0; i<V; i++){
                 adj[i] = new LinkedList();
             }
-
         }
 
         public void addEdge(int a, int b){

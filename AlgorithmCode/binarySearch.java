@@ -1,32 +1,5 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.StringTokenizer;
 public class BinarySearch {
-    public static void main(String[] args) throws IOException{
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(br.readLine());
-        int arr[] = new int[N];
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = Integer.parseInt(st.nextToken());
-        }
-        Arrays.sort(arr);
-        int T = Integer.parseInt(br.readLine());
-        int arr1[] = new int[T];
-        StringTokenizer st1 = new StringTokenizer(br.readLine());
-        for (int i = 0; i < arr1.length; i++) {
-            arr1[i] = Integer.parseInt(st1.nextToken());
-        }
-        for (int i = 0; i < T; i++) {
-            if(BS(arr, arr1[i]) == true){
-                System.out.println('1' + " ");
-            }else
-                System.out.println('0' + " ");
-        }
-    }
-    public static boolean BS(int arr[],int k){
+    public static boolean binarySearch(int arr[],int k){
         int left = 0;
         int right = arr.length-1;
         int mid;
@@ -44,6 +17,13 @@ public class BinarySearch {
         }
         return false;
     }
-	public void insert(int i) {
-	}
+
+    public static void main(String[] args) {
+        int arr[] = {1, 4, 6, 7, 10, 15, 18, 20};
+        // The given array must be sorted before performing a binary search.
+        if (binarySearch(arr, 7)) 
+            System.out.print("Exist");
+        else
+            System.out.print("Not Exist");
+    }
 }
