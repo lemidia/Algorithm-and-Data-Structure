@@ -4,7 +4,7 @@
  * @author Micah Stairs
  */
 
-public class BitManipulations {
+public class BitManipulation {
 
   // Sets the i'th bit to 1
   public static int setBit(int set, int i) {

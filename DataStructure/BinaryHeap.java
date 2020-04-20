@@ -3,7 +3,6 @@
  *
  * @author William Fiset, william.alexandre.fiset@gmail.com
  */
-package com.williamfiset.algorithms.datastructures.priorityqueue;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,19 +1,7 @@
-class QNode { 
-  int key; 
-  QNode next; 
-
-  // constructor to create a new linked list node 
-  public QNode(int key) 
-  { 
-      this.key = key; 
-      this.next = null; 
-  } 
-} 
-
 // A class to represent a queue 
 // The queue, front stores the front node of LL and rear stores the 
 // last node of LL 
-class Queue { 
+public class Queue { 
   QNode front, rear; 
 
   public Queue() 
@@ -55,10 +43,19 @@ class Queue {
           this.rear = null; 
       return temp; 
   } 
-} 
 
-// Driver class 
-public class Test { 
+  static class QNode { 
+    int key; 
+    QNode next; 
+  
+    // constructor to create a new linked list node 
+    public QNode(int key) 
+    { 
+        this.key = key; 
+        this.next = null; 
+    } 
+  } 
+
   public static void main(String[] args) 
   { 
       Queue q = new Queue(); 
@@ -72,4 +69,4 @@ public class Test {
 
       System.out.println("Dequeued item is " + q.dequeue().key); 
   } 
-} 
+}

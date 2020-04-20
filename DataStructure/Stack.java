@@ -3,7 +3,7 @@
  *
  * @author William Fiset, william.alexandre.fiset@gmail.com
  */
-package com.williamfiset.algorithms.datastructures.stack;
+
 
 public class Stack<T> implements Iterable<T> {
 

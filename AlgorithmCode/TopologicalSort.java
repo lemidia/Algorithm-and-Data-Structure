@@ -1,50 +1,5 @@
 import java.util.*;
 
-// data structure to store graph edges
-class Edge
-{
-	int source, dest;
-
-	public Edge(int source, int dest) {
-		this.source = source;
-		this.dest = dest;
-	}
-};
-
-// class to represent a graph object
-class Graph
-{
-	// A List of Lists to represent an adjacency list
-	List<List<Integer>> adjList = null;
-
-	// stores indegree of a vertex
-	List<Integer> indegree = null;
-
-	// Constructor
-	Graph(List<Edge> edges, int N) {
-		adjList = new ArrayList<>(N);
-		for (int i = 0; i < N; i++) {
-			adjList.add(i, new ArrayList<>());
-		}
-
-		// initialize indegree of each vertex by 0
-		indegree = new ArrayList<>(Collections.nCopies(N, 0));
-
-		// add edges to the undirected graph
-		for (int i = 0; i < edges.size(); i++)
-		{
-			int src = edges.get(i).source;
-			int dest = edges.get(i).dest;
-
-			// add an edge from source to destination
-			adjList.get(src).add(dest);
-
-			// increment in-degree of destination vertex by 1
-			indegree.set(dest, indegree.get(dest) + 1);
-		}
-	}
-}
-
 class TopologicalSort
 {
 	// performs Topological Sort on a given DAG
@@ -60,7 +15,7 @@ class TopologicalSort
 		Stack<Integer> S = new Stack<>();
 		for (int i = 0; i < N; i++) {
 			if (indegree.get(i) == 0) {
-				S.add(i);
+				S.push(i);
 			}
 		}
 
@@ -80,7 +35,7 @@ class TopologicalSort
 				// if m has no other incoming edges then
 				// insert m into S
 				if (indegree.get(m) == 0) {
-					S.add(m);
+					S.push(m);
 				}
 			}
 		}
@@ -91,7 +46,6 @@ class TopologicalSort
 				return null;
 			}
 		}
-
 		return L;
 	}
 
@@ -117,9 +71,53 @@ class TopologicalSort
 			System.out.print(L);  // print topological order
 		} else {
 			System.out.println("Graph has at least one cycle. " +
-							  "Topological sorting is not possible");
+				"Topological sorting is not possible");
 		}
 	}
+
+	// class to represent a graph object
+	static class Graph
+	{
+		// A List of Lists to represent an adjacency list
+		List<List<Integer>> adjList = null;
+
+		// stores indegree of a vertex
+		List<Integer> indegree = null;
+
+		// Constructor
+		Graph(List<Edge> edges, int N) {
+			adjList = new ArrayList<>(N);
+			for (int i = 0; i < N; i++) {
+				adjList.add(i, new ArrayList<>());
+			}
+
+			// initialize indegree of each vertex by 0
+			indegree = new ArrayList<>(Collections.nCopies(N, 0));
+
+			// add edges to the undirected graph
+			for (int i = 0; i < edges.size(); i++)
+			{
+				int src = edges.get(i).source;
+				int dest = edges.get(i).dest;
+
+				// add an edge from source to destination
+				adjList.get(src).add(dest);
+
+				// increment in-degree of destination vertex by 1
+				indegree.set(dest, indegree.get(dest) + 1);
+			}
+		}
+	}
+
+	// data structure to store graph edges
+	static class Edge{
+		int source, dest;
+
+		public Edge(int source, int dest) {
+			this.source = source;
+			this.dest = dest;
+		}
+	};
 }
 
 // Output:

@@ -17,10 +17,9 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - Palindrome
 - [String Permution](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/StringPermutation.java)
 
-### Tree Traversal - 트리순회
-- [Pre order](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/PreorderTraversal.java)
-- [In order](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/InorderTraversal.java)
-- [Post order](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/PostorderTraversal.java)
+### Tree Traversal - 트리 순회
+- [Pre Order, In Order, Post Order - 전위 순회, 중위 순회, 후위 순회](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinaryTree.java)
+
 
 ### Shortest Path - 최단거리 알고리즘
 - [Dijkstra Algorithm - Priority Queue(Binary Heap)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/DijkstraAlgorithm.java) -  Binary Heap 적용 O(V(logV)
@@ -96,7 +95,7 @@ In computer science, a data structure is a data organization, management, and st
 ### Indexed Priority Queue / Indexed Heap - 인덱스 우선순위 큐 / 인덱스 힙
 - [Implementation] 
 ### Dynamic Array - 동적 배열
-- [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/DaynamicArray.java)
+- [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/DynamicArray.java)
 ### Disjoint Set - Union Find by Rank with Path Compression - 서로소 집합
 - [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/UnionFind.java)
 ### Tree - 트리

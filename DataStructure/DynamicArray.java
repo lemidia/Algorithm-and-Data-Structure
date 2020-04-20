@@ -3,7 +3,6 @@
  *
  * @author William Fiset, william.alexandre.fiset@gmail.com
  */
-package com.williamfiset.algorithms.datastructures.dynamicarray;
 
 @SuppressWarnings("unchecked")
 public class DynamicArray<T> implements Iterable<T> {
