@@ -46,7 +46,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Fibonacchi - Bottom up Manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Fibonacci.java)
 - Fibonacchi - Top down Manner(Recursive + Memoization)
 - Coin Change - 동전교환
-- [LCS(Logest Common Subsequence)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LCS.java) - 최장 공통 부분순서(Compare with 3 String)
+- [0,1 Knapsack - 0, 1 배낭 문제](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Knapsack_01.java)
+- [LCS(Logest Common Subsequence)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LCS.java) - 최장 공통 부분순서(Compare with 3 Strings)
 - LIS(Logest Increasing Subsequence) - 최장 증가 부분순서
 - Edit Distance - 편집거리
 - [격자 경로 문제](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/HowManyPaths.java)
@@ -90,9 +91,9 @@ In computer science, a data structure is a data organization, management, and st
 - [Linked List](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/LinkedList.java)
 ### Graph - 그래프
 - [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/Graph.java)
-### Heap - 힙
+### Priority Queue / Heap - 우선순위 큐 / 힙
 - [Implementation - Binary Heap](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinaryHeap.java)
-### Indexed Priority Queue or Indexed Heap - 인덱스 우선순위 큐 or 인덱스 힙
+### Indexed Priority Queue / Indexed Heap - 인덱스 우선순위 큐 / 인덱스 힙
 - [Implementation] 
 ### Dynamic Array - 동적 배열
 - [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/DaynamicArray.java)
