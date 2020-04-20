@@ -10,12 +10,13 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [BFS - Using Queue](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BreadthFirstSearch.java) - O(V+E)
 
 ### Back Tracking - 백트래킹
+- Power Set Problem
 - N Queen
 - Sudoku
 
-### String manipulation - 문자열 조작
+### String Manipulation - 문자열 조작
+- [String Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/StringPermutation.java)
 - Palindrome
-- [String Permution](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/StringPermutation.java)
 
 ### Tree Traversal - 트리 순회
 - [Pre Order, In Order, Post Order - 전위 순회, 중위 순회, 후위 순회](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinaryTree.java)
@@ -26,8 +27,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Dijkstra Algorithm - Min Indexed Heap](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/DijkstraWithMinIndexedHeap.java) - Indexed Priority Queue 적용
 - [Floyd Washall Algorithm] - O(v^3)
 - [SPFA - Shortest Path Faster Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/ShortestPathFasterAlgorithm.java) - O(E) on Average. Not proved.
-- [Bellman Ford] - O(VE)
-- [Shortest Path On DAG Using TopSort] - 위상정렬 적용 후 변 경감 연산 수행 O(V+E)
+- Bellman Ford - O(VE)
+- Shortest Path On DAG Using TopSort - 위상정렬 적용 후 변 경감 연산 수행 O(V+E)
 
 ### Sorting - 정렬
 - [Quick sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/QuickSort.java) - Worst case: O(n^2), Average case: O(nlogn) where n is the number of item in an array
@@ -42,12 +43,12 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Topological Sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TopologicalSort.java) - Using InDegree, O(V+E)
 
 ### Dynamic Programming - 동적 프로그래밍
-- [Fibonacchi - Bottom up Manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Fibonacci.java)
-- Fibonacchi - Top down Manner(Recursive + Memoization)
+- [Fibonacci - Bottom up Manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Fibonacci.java)
+- Fibonacci - Top down Manner(Recursive + Memoization)
 - Coin Change - 동전교환
 - [0,1 Knapsack - 0, 1 배낭 문제](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Knapsack_01.java)
-- [LCS(Logest Common Subsequence)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LCS.java) - 최장 공통 부분순서(Compare with 3 Strings)
-- LIS(Logest Increasing Subsequence) - 최장 증가 부분순서
+- [LCS(Longest Common Subsequence)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LCS.java) - 최장 공통 부분순서(Compare with 3 Strings)
+- LIS(Longest Increasing Subsequence) - 최장 증가 부분순서
 - Edit Distance - 편집거리
 - [격자 경로 문제](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/HowManyPaths.java)
 - Matrix Multiplication
@@ -58,15 +59,15 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 ### Minimum Spanning Tree Algorithm - 최소신장트리
 - [Kruskal's Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/KruskalAlgorithm.cpp)
-- [Prim's Algorithm]()
+- Prim's Algorithm
 
 ### Network Flow - 네트워크 유량
-- [Ford Fullkerson method](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/FordFulkersonMethod.java)
+- [Ford Fulkerson method](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/FordFulkersonMethod.java)
 - [Edmonds Karp](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/EdmondsKarp.java) - Ford Fullkerson method + BFS 탐색 적용
 - [Max Flow Min Cost](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MinCostMaxFlow.java) - SPFA 적용
 
 ### Strongly Conneted Component - 강한 연결 요소
-- [Tarjan's Algorithm]
+- Tarjan's Algorithm
 - [Kosaraju's Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SCC_Kosaraju.java)
 
 ### Cut Edge and Articulation Point - 단절선과 단절점
@@ -76,16 +77,15 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### String Matching 
 - [KMP String Matching]
 - [보이어 무어]
-- [Aho-kora-sick]
 - [라빈 카프]
 
 ## Data structure
 In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data. - Wikipedia
 
 ### Queue - 큐
-- [Implementaion - Using LinkedList](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/Queue.java)
+- [Implementation - Using LinkedList](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/Queue.java)
 ### Stack - 스택
-- [Implementaion - Using LinkedList](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/Stack.java)
+- [Implementation - Using LinkedList](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/Stack.java)
 ### Linked List - 연결 리스트
 - [Linked List](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/LinkedList.java)
 ### Graph - 그래프
