@@ -118,7 +118,6 @@ public class EdmondsKarp {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
 
-
         n = 6;
         source = n - 1;
         sink = n - 2;

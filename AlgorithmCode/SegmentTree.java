@@ -66,7 +66,6 @@ public class SegmentTree {
                 long diff  = t3 - arr[t2];
                 arr[t2] = t3;
                 update(segmentTree, 1, t2, 0, N-1, diff);
-
             }else if(t1 == 2){
                 int t2 = Integer.parseInt(st.nextToken());
                 int t3 = Integer.parseInt(st.nextToken());
