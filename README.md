@@ -26,8 +26,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 
 ### Shortest Path - 최단거리 알고리즘
-- [Dijkstra Algorithm - Priority Queue(Binary Heap)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/DijkstraAlgorithm.java) -  Binary Heap 적용 O(V(logV)
-- [Dijkstra Algorithm - Min Indexed Heap](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/DijkstraWithMinIndexedHeap.java) - Indexed Priority Queue 적용
+- [Dijkstra Algorithm - Priority Queue(Binary Heap)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/DijkstraAlgorithm.java) -  Binary Heap 적용 O(E(logV)
+- [Dijkstra Algorithm - Min Indexed Heap](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/DijkstraWithMinIndexedHeap.java) - Indexed Priority Queue 적용 O(V(logV)
 - [Floyd Washall Algorithm] - O(v^3)
 - [SPFA - Shortest Path Faster Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/ShortestPathFasterAlgorithm.java) - O(E) on Average. Not proved.
 - Bellman Ford - O(VE)
@@ -48,8 +48,10 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### Dynamic Programming - 동적 프로그래밍
 - [Fibonacci - Bottom up Manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Fibonacci.java)
 - Fibonacci - Top down Manner(Recursive + Memoization)
+- [Maximum Subarray(kadene Algorithm)]
 - Coin Change - 동전교환
 - [0,1 Knapsack - 0, 1 배낭 문제](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Knapsack_01.java)
+- [Unbounded Knapsack - 물건 수량 제한 없는 배낭 문제]
 - [LCS(Longest Common Subsequence)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LCS.java) - 최장 공통 부분순서(Compare with 3 Strings)
 - LIS(Longest Increasing Subsequence) - 최장 증가 부분순서
 - Edit Distance - 편집거리
@@ -76,6 +78,9 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### Cut Edge and Articulation Point - 단절선과 단절점
 - Cut Edge - O(V+E)
 - Articulation Point - O(V+E)
+
+### LCA - 최소 공통 조상 (Euler Tour + Sparse Table(RMQ))
+- [LCA]
 
 ### String Matching 
 - [KMP String Matching]
@@ -106,7 +111,11 @@ In computer science, a data structure is a data organization, management, and st
 ### Binary Search Tree - 이진탐색트리
 - [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BinarySearchTree.java)
 ### Segment Tree - 세그먼트 트리
-- [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SegmentTree.java)
+- [Range Sum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SegmentTree.java)
+- [Range Minimum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SegmentTreeMin.java)
+
+### Sparse Table
+- [Range Minimum Query]
 ### Trie or Prefix Tree - 트라이, 접두사 트리
 - [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/TrieTree.java)
 ### Bit Manipulation - 비트 조작
