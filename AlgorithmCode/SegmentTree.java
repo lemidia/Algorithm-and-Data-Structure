@@ -1,12 +1,7 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
-
 public class SegmentTree {
     static long init(long segmentTree[], long arr[], int node, int start, int end){
         if(start == end)
-           return segmentTree[node] = arr[start];
+            return segmentTree[node] = arr[start];
 
         int mid = (start+end)/2;
         return segmentTree[node] = init(segmentTree, arr, node*2, start, mid)
@@ -14,64 +9,50 @@ public class SegmentTree {
 
     }
     static void update(long segmentTree[], int node, int index, int start, int end, long diff){
+        // 범위 밖
         if(index < start || index > end )
             return;
         segmentTree[node] += diff;
         if(start != end){
             int mid = (start+end)/2;
             update(segmentTree, node*2, index, start, mid, diff);
-            update(segmentTree, node*2+1, index,mid+1, end, diff);
+            update(segmentTree, node*2+1, index, mid+1, end, diff);
         }
     }
 
     static long sum(long segmentTree[], int node, int left, int right, int start, int end){
+        // 범위 밖 질의
         if(right < start || left > end)
-             return 0;
+            return 0;
 
+        // 완전히 포함하는 질의
         if(left <= start && end <= right)
             return segmentTree[node];
 
+        // 그 외, 걸치는 범위 질의
         int mid = (start+end)/2;
         return sum(segmentTree, node*2, left, right, start, mid) +
                 sum(segmentTree, node*2+1, left, right, mid+1, end);
     }
+    
     static double baseLog(double x, double base){
         return Math.log(x) / Math.log(base);
     }
 
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb = new StringBuilder();
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        int N = Integer.parseInt(st.nextToken());
-        int M = Integer.parseInt(st.nextToken());
-        int K = Integer.parseInt(st.nextToken());
-
-        long arr[] = new long[N];
-        for (int i = 0; i < N; i++) {
-            arr[i] = Long.parseLong(br.readLine());
-        }
+    public static void main(String[] args) {
+        long arr[] = {4,7,1,3,9,5,9,2,4};
+        int N = arr.length;
 
         int h = (int)Math.ceil(baseLog(N, 2));
         long segmentTree[] = new long[1<<(h+1)];
+        // Construct Segment Tree
         init(segmentTree, arr, 1, 0, N-1);
-        M+=K;
-        while (M-- > 0){
-            st = new StringTokenizer(br.readLine());
-            int t1 = Integer.parseInt(st.nextToken());
-            if(t1 == 1){
-                int t2 = Integer.parseInt(st.nextToken());
-                t2-=1;
-                long t3 = Long.parseLong(st.nextToken());
-                long diff  = t3 - arr[t2];
-                arr[t2] = t3;
-                update(segmentTree, 1, t2, 0, N-1, diff);
-            }else if(t1 == 2){
-                int t2 = Integer.parseInt(st.nextToken());
-                int t3 = Integer.parseInt(st.nextToken());
-                sb.append(sum(segmentTree, 1, t2-1, t3-1, 0, N-1)).append("\n");
-            }
-        }
-        System.out.println(sb.toString());
+
+        // 4 + 7 + 1 + 3 = 15
+        System.out.println(sum(segmentTree, 1, 0, 3, 0, N-1));
+        // update index(1) as 10. So, we will decide diff as 3.
+        update(segmentTree, 1, 1, 0, N-1, 3);
+        // 4 + 10 = 14
+        System.out.println(sum(segmentTree, 1, 0, 1, 0, N-1));
     }
 }
