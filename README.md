@@ -62,7 +62,10 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### Prime - 소수
 - [Eratosthenes](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Eratosthenes.java)
 
-### Minimum Spanning Tree Algorithm - 최소신장트리
+### GCD, LCM - 최소공약수, 최소공배수
+- [GCD, LCM]
+
+### Minimum Spanning Tree Algorithm - 최소 신장 트리 알고리즘 
 - [Kruskal's Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/KruskalAlgorithm.cpp)
 - Prim's Algorithm
 
@@ -70,6 +73,10 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Ford Fulkerson method](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/FordFulkersonMethod.java)
 - [Edmonds Karp](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/EdmondsKarp.java) - Ford Fullkerson method + BFS 탐색 적용
 - [Max Flow Min Cost](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MinCostMaxFlow.java) - SPFA 적용
+
+### Bipartite Matching - 이분매칭
+
+- [Bipartite Matching] - DFS Manner
 
 ### Strongly Conneted Component - 강한 연결 요소
 - Tarjan's Algorithm
@@ -113,9 +120,8 @@ In computer science, a data structure is a data organization, management, and st
 ### Segment Tree - 세그먼트 트리
 - [Range Sum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SegmentTree.java)
 - [Range Minimum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SegmentTreeMin.java)
-
 ### Sparse Table
-- [Range Minimum Query]
+- [Range Minimum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SparseTable.java) - Construction : O(nlogn), Min Query : O(1)
 ### Trie or Prefix Tree - 트라이, 접두사 트리
 - [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/TrieTree.java)
 ### Bit Manipulation - 비트 조작
