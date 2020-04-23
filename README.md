@@ -20,8 +20,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 ### Tree Algorithm - 트리 알고리즘
 - [Pre Order, In Order, Post Order - 전위 순회, 중위 순회, 후위 순회](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinaryTree.java)
-- Center of Tree
-- Sum of leaf
+- Center of Tree - 트리의 중심
+- Sum of leaf - 잎 노드들의 합
 
 
 ### Shortest Path - 최단거리 알고리즘
@@ -39,7 +39,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Selection sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/SelectionSort.java) - O(n^2)
 - [Bubble sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/BubbleSort.java) - O(n^2)
 - [Insertion sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/InsertionSort.java) - O(n^2)
-- [Heap sort]
+- Heap sort - Worst case: O(n^2)
 
 ### Topological Sort - 위상정렬
 - [Topological Sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TopologicalSort.java) - Using InDegree, O(V+E)
@@ -47,7 +47,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### Dynamic Programming - 동적 프로그래밍
 - [Fibonacci - Bottom up Manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Fibonacci.java)
 - Fibonacci - Top down Manner(Recursive + Memoization)
-- [Maximum Subarray(kadene Algorithm)]
+- Maximum Sum Sub array(kadene Algorithm)
 - Coin Change - 동전교환
 - [0,1 Knapsack - 0, 1 배낭 문제](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Knapsack_01.java)
 - [Unbounded Knapsack - 물건 수량 제한 없는 배낭 문제]
@@ -103,6 +103,8 @@ In computer science, a data structure is a data organization, management, and st
 - [Linked List](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/LinkedList.java)
 ### Graph - 그래프
 - [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/Graph.java)
+### Set - 집합 (중복된 원소를 허용하지 않는 자료구조)
+- [Implementation]()
 ### Priority Queue / Heap - 우선순위 큐 / 힙
 - [Implementation - Binary Heap](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinaryHeap.java)
 ### Indexed Priority Queue / Indexed Heap - 인덱스 우선순위 큐 / 인덱스 힙
