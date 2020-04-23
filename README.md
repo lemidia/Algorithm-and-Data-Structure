@@ -118,10 +118,10 @@ In computer science, a data structure is a data organization, management, and st
 ### Binary Search Tree - 이진탐색트리
 - [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BinarySearchTree.java)
 ### Segment Tree - 세그먼트 트리
-- [Range Sum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SegmentTree.java)
-- [Range Minimum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SegmentTreeMin.java)
+- [Range Sum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/SegmentTree.java)
+- [Range Minimum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/SegmentTreeMin.java)
 ### Sparse Table
-- [Range Minimum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SparseTable.java) - Construction : O(nlogn), Min Query : O(1)
+- [Range Minimum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/SparseTable.java) - Construction : O(nlogn), Min Query : O(1)
 ### Trie or Prefix Tree - 트라이, 접두사 트리
 - [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/TrieTree.java)
 ### Bit Manipulation - 비트 조작
