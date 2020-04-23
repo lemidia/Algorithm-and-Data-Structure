@@ -114,7 +114,7 @@ In computer science, a data structure is a data organization, management, and st
 ### Tree - 트리
 - [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinaryTree.java)
 ### Binary Search Tree - 이진탐색트리
-- [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BinarySearchTree.java)
+- [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinarySearchTree.java)
 ### Segment Tree - 세그먼트 트리
 - [Segment Tree - Range Sum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/SegmentTree.java) - Construction : O(n), Updade: O(logn), Min Query : O(logn)
 - [Segment Tree - Range Minimum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/SegmentTreeMin.java) - Construction : O(n), Updade: O(logn), Min Query : O(logn)
