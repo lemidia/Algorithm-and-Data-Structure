@@ -69,7 +69,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - Prim's Algorithm
 
 ### Network Flow - 네트워크 유량
-- [Ford Fulkerson method](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/FordFulkersonMethod.java)
+- [Ford-Fulkerson method](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/FordFulkersonMethod.java)
 - [Edmonds Karp](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/EdmondsKarp.java) - Ford Fullkerson method + BFS 탐색 적용
 - [Max Flow Min Cost](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MinCostMaxFlow.java) - SPFA 적용
 
@@ -89,8 +89,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 ### String Matching 
 - KMP String Matching
-- 보이어 무어
-- 라빈 카프
+- Boyer moore algorithm
+- Rabin karp algorithm
 
 ## Data structure
 In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data. - Wikipedia
