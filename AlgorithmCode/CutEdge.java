@@ -1,20 +1,19 @@
 import java.util.ArrayList;
 
 public class CutEdge {
+    private int ids[];
+    private int lows[];
+    private int id;
+    private boolean visited[];
+    private ArrayList<Edge> cutEdgeList;
 
-    int ids[];
-    int lows[];
-    int id;
-    boolean visited[];
-    ArrayList<Edge> cutEdgeList;
-
-    int min (int a, int b) {
+    public int min (int a, int b) {
         return a < b ? a : b;
     }
 
     static class Edge {
-        int from;
-        int to;
+        private int from;
+        private int to;
 
         public Edge(int from, int to) {
             this.from = from;
@@ -42,8 +41,7 @@ public class CutEdge {
         }
     }
 
-    void doCutEdgeAlgorithm(Graph graph, int n) {
-
+    public void doCutEdgeAlgorithm(Graph graph, int n) {
         ids = new int[n];
         lows = new int[n];
         visited = new boolean[n];
@@ -61,11 +59,9 @@ public class CutEdge {
 
     // For construct graph
     static class Graph {
-        int n;
-        ArrayList<Integer> graph[];
+        private ArrayList<Integer> graph[];
 
         public Graph(int n) {
-            this.n = n;
             graph = new ArrayList[n];
             for (int i = 0; i < n; i++) {
                 graph[i] = new ArrayList<>();

@@ -9,12 +9,12 @@ class TopologicalSort
 		List<Integer> L = new ArrayList<>();
 
 		// get indegree information of the graph
-		List<Integer> indegree = graph.indegree;
+		List<Integer> inDegree = graph.inDegree;
 
 		// Set of all nodes with no incoming edges
 		Stack<Integer> S = new Stack<>();
 		for (int i = 0; i < N; i++) {
-			if (indegree.get(i) == 0) {
+			if (inDegree.get(i) == 0) {
 				S.push(i);
 			}
 		}
@@ -30,11 +30,11 @@ class TopologicalSort
 			for (int m : graph.adjList.get(n))
 			{
 				// remove edge from n to m from the graph
-				indegree.set(m, indegree.get(m) - 1);
+				inDegree.set(m, inDegree.get(m) - 1);
 
 				// if m has no other incoming edges then
 				// insert m into S
-				if (indegree.get(m) == 0) {
+				if (inDegree.get(m) == 0) {
 					S.push(m);
 				}
 			}
@@ -42,7 +42,7 @@ class TopologicalSort
 
 		// if graph has edges then graph has at least one cycle
 		for (int i = 0; i < N; i++) {
-			if (indegree.get(i) != 0) {
+			if (inDegree.get(i) != 0) {
 				return null;
 			}
 		}
@@ -82,7 +82,7 @@ class TopologicalSort
 		List<List<Integer>> adjList = null;
 
 		// stores indegree of a vertex
-		List<Integer> indegree = null;
+		List<Integer> inDegree = null;
 
 		// Constructor
 		Graph(List<Edge> edges, int N) {
@@ -92,7 +92,7 @@ class TopologicalSort
 			}
 
 			// initialize indegree of each vertex by 0
-			indegree = new ArrayList<>(Collections.nCopies(N, 0));
+			inDegree = new ArrayList<>(Collections.nCopies(N, 0));
 
 			// add edges to the undirected graph
 			for (int i = 0; i < edges.size(); i++)
@@ -104,7 +104,7 @@ class TopologicalSort
 				adjList.get(src).add(dest);
 
 				// increment in-degree of destination vertex by 1
-				indegree.set(dest, indegree.get(dest) + 1);
+				inDegree.set(dest, inDegree.get(dest) + 1);
 			}
 		}
 	}
