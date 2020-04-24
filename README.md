@@ -81,7 +81,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Kosaraju's Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SCC_Kosaraju.java)
 
 ### Cut Edge and Articulation Point - 단절선과 단절점
-- Cut Edge - O(V+E)
+- [Cut Edge](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CutEdge.java) - O(V+E)
 - Articulation Point - O(V+E)
 
 ### LCA - 최소 공통 조상 (Euler Tour + Sparse Table(RMQ))
