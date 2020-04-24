@@ -1,3 +1,5 @@
+package ShortestPath;
+
 import java.util.*;
 import java.util.LinkedList;
 
@@ -23,8 +25,8 @@ public class ShortestPathOnDAG {
     }
 
     static class Edge {
-        int to;
-        int weight;
+        private int to;
+        private int weight;
 
         public Edge(int to, int weight) {
             this.to = to;
@@ -70,8 +72,9 @@ public class ShortestPathOnDAG {
 
     public static void pathReconstruction() {
         LinkedList<Integer> path = new LinkedList<>();
-        path.addFirst(topologicalOrder.get(n-1));
-        for (int i = prev[n-1]; i != -1 ; i = prev[i]) {
+        int endNode = topologicalOrder.get(n-1);
+        path.addFirst(endNode);
+        for (int i = prev[endNode]; i != -1 ; i = prev[i]) {
             path.addFirst(i);
         }
 
