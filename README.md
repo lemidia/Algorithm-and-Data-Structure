@@ -43,7 +43,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - Heap sort - Worst case: O(n^2)
 
 ### Topological Sort - 위상정렬
-- [Topological Sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TopologicalSort.java) - Using InDegree, O(V+E)
+- [Topological Sort - Using In Degree](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TopologicalSort.java) - Using In Degree, O(V+E)
+- [Topological Sort - Using DFS](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TopologicalSortUsingDFS.java) - Using DFS, O(V+E)
 
 ### Dynamic Programming - 동적 프로그래밍
 - [Fibonacci - Bottom up Manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Fibonacci.java)
