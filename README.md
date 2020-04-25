@@ -28,7 +28,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### Shortest Path - 최단거리 알고리즘
 - [Dijkstra Algorithm - Priority Queue(Binary Heap)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/DijkstraAlgorithm.java) -  Binary Heap 적용 O(E(logV)
 - [Dijkstra Algorithm - Min Indexed Heap](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/DijkstraWithMinIndexedHeap.java) - Indexed Priority Queue 적용 O(V(logV)
-- [Floyd Washall Algorithm] - O(v^3)
+- [Floyd Washall Algorithm - All Pair Shortest Path] - 모든 쌍 최단경로 O(v^3)
 - [SPFA - Shortest Path Faster Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/ShortestPathFasterAlgorithm.java) - O(E) on Average. Not proved.
 - Bellman Ford - O(VE)
 - [Shortest Path On DAG Using TopSort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/ShortestPathOnDAG.java) - 위상정렬 적용 후 위상순서에 따라 변 경감 연산 수행 O(V+E)
@@ -119,8 +119,10 @@ In computer science, a data structure is a data organization, management, and st
 ### Binary Search Tree - 이진탐색트리
 - [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinarySearchTree.java)
 ### Segment Tree - 세그먼트 트리
-- [Segment Tree - Range Sum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/SegmentTree.java) - Construction : O(n), Updade: O(logn), Min Query : O(logn)
-- [Segment Tree - Range Minimum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/SegmentTreeMin.java) - Construction : O(n), Updade: O(logn), Min Query : O(logn)
+- [Segment Tree - Range Sum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/SegmentTree.java) - Construction : O(n), Update: O(logn), Min Query : O(logn)
+- [Segment Tree - Range Minimum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/SegmentTreeMin.java) - Construction : O(n), Update: O(logn), Min Query : O(logn)
+### Fenwick Tree or Binary Indexed Tree - 펜윅트리
+- [Fenwick Tree](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/FenwickTree.java) - Range Sum Query - Construction : O(n), Update: O(logn), Sum Query : O(logn)
 ### Sparse Table
 - [Sparse Table - Range Minimum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/SparseTable.java) - Construction : O(nlogn), Min Query : O(1)
 ### Trie or Prefix Tree - 트라이, 접두사 트리
