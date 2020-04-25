@@ -21,7 +21,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 ### Tree Algorithm - 트리 알고리즘
 - [Pre Order, In Order, Post Order - 전위 순회, 중위 순회, 후위 순회](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinaryTree.java)
-- Center of Tree - 트리의 중심
+- [Center of Tree](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CenterOfTree.java) - 트리의 중심
 - Sum of leaf - 잎 노드들의 합
 
 
