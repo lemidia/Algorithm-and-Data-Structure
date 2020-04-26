@@ -15,7 +15,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 ### Back Tracking - 백트래킹
 - [String Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/StringPermutation.java)
-- Power Set Problem
+- [Power Set Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/PowerSet.java)
 - N Queen
 - Sudoku
 
