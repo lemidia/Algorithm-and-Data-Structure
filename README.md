@@ -14,7 +14,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Binary Search - Recursive manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BinarySearchRecursive.java) - O(logn)
 
 ### Back Tracking - 백트래킹
-- [String Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/StringPermutation.java)
+- [Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/StringPermutation.java)
 - [Power Set Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/PowerSet.java)
 - N Queen
 - Sudoku
@@ -62,10 +62,15 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Stair Case Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Upstair.java)
 
 ### Prime - 소수
-- [Eratosthenes](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Eratosthenes.java)
+- [Sieve Of Eratosthenes](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Eratosthenes.java) - 에라토스테네스의 체
 
 ### GCD, LCM - 최소공약수, 최소공배수
-- [GCD, LCM]
+- [GCD] - 최대공약수
+- [LCM] - 최소공배수
+
+### Permutation & Combination - 순열과 조합
+- [Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Permutation.java) - 순열 nPr
+- [Combination](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Combination.java) - 조합 nCr
 
 ### Minimum Spanning Tree Algorithm - 최소 신장 트리 알고리즘 
 - [Kruskal's Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/KruskalAlgorithm.cpp)
