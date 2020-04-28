@@ -95,8 +95,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### LCA - 최소 공통 조상 (Euler Tour + Sparse Table(RMQ))
 - [LCA - Euler Tour + Sparse Table(RMQ)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LowestCommonAncestor.java) Euler Tour = O(n), Construction of Sparse Table = O(nlogn), LCA Query = O(1), Total = O(nlogn)
 
-### String Pattern Matching 
-- [KMP Algorithm - Pattern Matching](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/KMP.java) - Knuth - Morris - Pratt 패턴 매칭 알고리즘, O(n+m) - n is pattern matching and m is lps construction
+### String Pattern Matching - 문자열 패턴 매칭
+- [KMP Pattern Matching Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/KMP.java) - KMP(Knuth, Morris, Pratt) 패턴 매칭 알고리즘, O(n+m) - n is pattern matching and m is lps construction
 - Boyer moore algorithm - Bad Character Rule
 - Rabin karp algorithm
 
