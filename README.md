@@ -14,8 +14,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Binary Search - Recursive manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BinarySearchRecursive.java) - O(logn)
 
 ### Back Tracking - 백트래킹
-- [Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/StringPermutation.java)
-- [Power Set Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/PowerSet.java)
+- [Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/StringPermutation.java) - O(n!)
+- [Power Set Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/PowerSet.java) - O(2^n)
 - N Queen
 - Sudoku
 
@@ -50,12 +50,12 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### Dynamic Programming - 동적 프로그래밍
 - [Fibonacci - Bottom up Manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Fibonacci.java)
 - Fibonacci - Top down Manner(Recursive + Memoization)
-- Maximum Sum Sub array(kadene Algorithm)
+- [Maximum Sum Sub array(Kadene's Algorithm)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MaximumSumSubArray.java) - O(n)
 - Coin Change - 동전교환
 - [0,1 Knapsack - 0, 1 배낭 문제](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Knapsack_01.java)
 - [Unbounded Knapsack - 물건 수량 제한 없는 배낭 문제]
 - [LCS(Longest Common Subsequence)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LCS.java) - 최장 공통 부분순서(Compare with 3 Strings)
-- LIS(Longest Increasing Subsequence) - 최장 증가 부분순서
+- [LIS(Longest Increasing Subsequence) - 최장 증가 부분순서](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LongestIncreasingSubSequence.java) - Bottom Up Manner O(n^2)
 - Edit Distance - 편집거리
 - [격자 경로 문제](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/HowManyPaths.java)
 - Matrix Multiplication
@@ -64,7 +64,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### Prime - 소수
 - [Sieve Of Eratosthenes](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Eratosthenes.java) - 에라토스테네스의 체
 
-### GCD, LCM - 최소공약수, 최소공배수
+### GCD, LCM - 최대공약수, 최소공배수
 - [GCD] - 최대공약수
 - [LCM] - 최소공배수
 
