@@ -14,9 +14,9 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Binary Search - Recursive manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BinarySearchRecursive.java) - O(logn)
 
 ### Back Tracking - 백트래킹
-- [Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/StringPermutation.java) - O(n!)
+- [Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/StringPermutation.java) - O(n!) 순열
 - [Power Set Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/PowerSet.java) - O(2^n)
-- N Queen
+- [N Queen Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/NQueen.java) - N x N 격자판에 N개의 퀸을 서로 공격하지 않으면서 놓을 수 있는가?
 - Sudoku
 
 ### Tree Algorithm - 트리 알고리즘

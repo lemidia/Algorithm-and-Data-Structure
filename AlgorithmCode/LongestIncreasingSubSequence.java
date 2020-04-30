@@ -41,7 +41,7 @@ public class LongestIncreasingSubSequence {
 
         list.addFirst(arr[i]);
 
-        System.out.print("SubSequence is ");
+        System.out.print("Sub Sequence is ");
 
         for (int next : list)
            System.out.print(next + " ");
@@ -49,6 +49,9 @@ public class LongestIncreasingSubSequence {
     }
     public static void main(String[] args) {
         int arr1 [] = {2, 4, 1, 5, 10, 14, 0, 7, 9, 11, 17};
+        // Output:
+        // LIS is 7
+        // Sub Sequence is 2 4 5 7 9 11 17 
         LIS(arr1);
     }
 }
