@@ -7,16 +7,21 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 ### DFS & BFS - 깊이우선탐색 & 너비우선탐색
 - [DFS - Recursion manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/DFSRecursion.java) - O(V+E) [해당 알고리즘 블로그 글 보기](https://lemidia.github.io/algorithm/DFS-Implementation-recursive/)
+
 - [BFS - Using Queue](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BreadthFirstSearch.java) - O(V+E) [해당 알고리즘 블로그 글 보기](https://lemidia.github.io/algorithm/BFS-Implementation/)
 
 ### Binary Search - 이분탐색 
 - [Binary Search - Iterative manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BinarySearch.java) - O(logn) [해당 알고리즘 블로그 글 보기](https://lemidia.github.io/algorithm/binary-search/)
+
 - [Binary Search - Recursive manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BinarySearchRecursive.java) - O(logn)
 
 ### Back Tracking - 백트래킹
 - [Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/StringPermutation.java) - O(n!) 순열
+
 - [Power Set Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/PowerSet.java) - O(2^n)
+
 - [N Queen Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/NQueen.java) - N x N 격자판에 N개의 퀸을 서로 공격하지 않으면서 놓을 수 있는가?
+
 - [Sudoku](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sudoku.java) - 스도쿠, 숫자 퍼즐 문제
 
 ### Tree Algorithm - 트리 알고리즘
@@ -43,31 +48,51 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 ### Sorting - 정렬
 - [Quick sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/QuickSort.java) - Worst case: O(n^2), Average case: O(nlogn) where n is the number of item in an array
+
 - [Merge sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/mergesort.java) - O(nlogn)
+
 - [Counting sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/CountingSort.java) - O(kn) where k is upper bound
+
 - [Selection sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/SelectionSort.java) - O(n^2)
+
 - [Bubble sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/BubbleSort.java) - O(n^2)
+
 - [Insertion sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/InsertionSort.java) - O(n^2)
+
 - Heap sort - Worst case: O(n^2)
 
 ### Topological Sort - 위상정렬
 - [Topological Sort - Using In Degree](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TopologicalSort.java) - Using In Degree, O(V+E)
+
 - [Topological Sort - Using DFS](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TopologicalSortUsingDFS.java) - Using DFS, O(V+E)
 
 ### Dynamic Programming - 동적 프로그래밍
 - [Fibonacci - Bottom up Manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Fibonacci.java)
+
 - Fibonacci - Top down Manner(Recursive + Memoization)
+
 - [Maximum Sum Sub array(Kadene's Algorithm)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MaximumSumSubArray.java) - O(n)
+
 - [Coin Change Problem 1](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CoinChange_MinNumberOfCoins.java) - 주어진 종류의 코인으로 특정 금액을 만드는데 드는 가능한 최소의 동전 수 (동전의 개수는 무한)
+
 - [Coin Change Problem 2](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CoinChange_TheNumberOfWays.java) - 주어진 종류의 코인으로 특정 금액을 만들 수 있는 경우의 수(조합의 수) (동전의 개수는 무한)
+
 - [0 1 Knapsack](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Knapsack_01.java) - 물건의 수량이 최대 1개인 배낭 문제
+
 - [Unbounded Knapsack] - 물건의 수량이 제한 없는 배낭 문제
+
 - [LCS(Longest Common Subsequence)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LCS.java) - 최장 공통 부분 순서(Compare with 3 Strings), Bottom Up Manner O(n^3)
+
 - LCS(Longest Common Substring) - 최장 공통 부분 문자열(Compare with 2 Strings), Bottom Up Manner O(n^2)
+
 - [LIS(Longest Increasing Subsequence)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LongestIncreasingSubSequence.java) - 최장 증가 부분순서, Bottom Up Manner O(n^2)
+
 - Edit Distance - 편집거리
+
 - [격자 경로 문제](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/HowManyPaths.java)
+
 - Matrix Multiplication
+
 - [Stair Case Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Upstair.java)
 
 ### Prime - 소수
@@ -75,31 +100,39 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 ### GCD, LCM - 최대공약수, 최소공배수
 - [GCD] - 최대공약수
+
 - [LCM] - 최소공배수
 
 ### Permutation & Combination - 순열과 조합
 - [Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Permutation.java) - 순열 nPr, 순서화
+
 - [Permutation Using Swap](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/PermutationSwap.java) - 순열 nPn, 비순서화
+
 - [Combination](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Combination.java) - 조합 nCr
 
 ### Minimum Spanning Tree Algorithm - 최소 신장 트리 알고리즘 
 - [Kruskal's Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/KruskalAlgorithm.cpp)
+
 - Prim's Algorithm
 
 ### Network Flow - 네트워크 유량
 - [Ford-Fulkerson method](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/FordFulkersonMethod.java)
+
 - [Edmonds Karp](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/EdmondsKarp.java) - Ford Fullkerson method + BFS 탐색 적용
+
 - [Max Flow Min Cost](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MinCostMaxFlow.java) - SPFA 적용
 
 ### Bipartite Matching - 이분매칭
 - [Bipartite Matching] - DFS Manner
 
 ### Strongly Conneted Component - 강한 연결 요소
-- Tarjan's Algorithm
-- [Kosaraju's Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SCC_Kosaraju.java)
+- Tarjan's Algorithm - O(V+E)
+
+- [Kosaraju's Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SCC_Kosaraju.java) - O(V+E)
 
 ### Cut Edge and Articulation Point - 단절선과 단절점
 - [Cut Edge](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CutEdge.java) - O(V+E)
+
 - [Articulation Point](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ArticulationPoint.java) - O(V+E)
 
 ### LCA - 최소 공통 조상 (Euler Tour + Sparse Table(RMQ))
@@ -107,14 +140,17 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 ### String Pattern Matching - 문자열 패턴 매칭
 - [KMP Pattern Matching Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/KMP.java) - KMP(Knuth, Morris, Pratt) 패턴 매칭 알고리즘, O(n+m) - n is pattern matching and m is lps construction
-- Boyer moore algorithm - Bad Character Rule
-- Rabin karp algorithm
+
+- Boyer Moore Algorithm - Bad Character Rule
+
+- Rabin Karp Algorithm
 
 ## Data structure
 In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data. - Wikipedia
 
 ### Queue - 큐
 - [Implementation - Using LinkedList](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/Queue.java)
+
 ### Stack - 스택
 - [Implementation - Using LinkedList](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/Stack.java)
 ### Linked List - 연결 리스트
@@ -137,6 +173,7 @@ In computer science, a data structure is a data organization, management, and st
 - [Implementation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinarySearchTree.java)
 ### Segment Tree - 세그먼트 트리
 - [Segment Tree - Range Sum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/SegmentTree.java) - Construction : O(n), Update: O(logn), Min Query : O(logn)
+
 - [Segment Tree - Range Minimum Query](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/SegmentTreeMin.java) - Construction : O(n), Update: O(logn), Min Query : O(logn)
 ### Fenwick Tree or Binary Indexed Tree - 펜윅트리
 - [Fenwick Tree](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/FenwickTree.java) - Range Sum Query - Construction : O(n), Update: O(logn), Sum Query : O(logn)
