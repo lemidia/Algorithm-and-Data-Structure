@@ -48,6 +48,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Shortest Path On DAG Using TopSort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/ShortestPathOnDAG.java) - 위상정렬 적용 후 위상순서에 따라 변 경감 연산 수행 O(V+E)
 
+- [Shortest Path On A Graph Using BFS] - 그래프에서 모든 Edge의 가중치가 같은 상황에서의 최단경로 O(V+E)
+
 ### Sorting - 정렬
 - [Quick sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/QuickSort.java) - Worst case: O(n^2), Average case: O(nlogn) where n is the number of item in an array
 
@@ -139,7 +141,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 ### Cycle Detection Algorithm in a graph - 그래프에서의 사이클 탐지
 
-- Cycle Detection in a Directed Graph - 방향 그래프에서의 사이클 탐지, DFS 사용 - O(V+E)
+- [Cycle Detection in a Directed Graph](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CycleDetectionOnDirectedGraph.java) - 방향 그래프에서의 사이클 탐지, DFS 사용 - O(V+E)
 
 - Cycle Detection in a UnDirected Graph - 비방향 그래프에서의 사이클 탐지, 유니온 파인드 사용 - O(V+E)
 
