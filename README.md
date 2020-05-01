@@ -17,7 +17,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/StringPermutation.java) - O(n!) 순열
 - [Power Set Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/PowerSet.java) - O(2^n)
 - [N Queen Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/NQueen.java) - N x N 격자판에 N개의 퀸을 서로 공격하지 않으면서 놓을 수 있는가?
-- [Sudoku](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sudoku.java) 스도쿠 - 숫자 퍼즐 문제
+- [Sudoku](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sudoku.java) - 스도쿠, 숫자 퍼즐 문제
 
 ### Tree Algorithm - 트리 알고리즘
 - [Pre Order, In Order, Post Order - 전위 순회, 중위 순회, 후위 순회](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinaryTree.java)
@@ -69,7 +69,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [LCM] - 최소공배수
 
 ### Permutation & Combination - 순열과 조합
-- [Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Permutation.java) - 순열 nPr
+- [Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Permutation.java) - 순열 nPr, 순서화
+- [Permutation Using Swap](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/PermutationSwap.java) - 순열 nPr, 비순서화
 - [Combination](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Combination.java) - 조합 nCr
 
 ### Minimum Spanning Tree Algorithm - 최소 신장 트리 알고리즘 
