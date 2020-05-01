@@ -51,8 +51,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Fibonacci - Bottom up Manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Fibonacci.java)
 - Fibonacci - Top down Manner(Recursive + Memoization)
 - [Maximum Sum Sub array(Kadene's Algorithm)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MaximumSumSubArray.java) - O(n)
-- Coin Change Problem 1 - 주어진 종류의 코인으로 특정 금액을 만드는데 드는 가능한 최소의 동전 수 (동전의 개수는 무한)
-- [Coin Change Problem 2](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CoinChange_TheNumberOfWays.java) - 주어진 종류의 코인으로 특정 금액을 만들 수 있는 경우의 수 (동전의 개수는 무한)
+- [Coin Change Problem 1](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CoinChange_MinNumberOfCoins.java) - 주어진 종류의 코인으로 특정 금액을 만드는데 드는 가능한 최소의 동전 수 (동전의 개수는 무한)
+- [Coin Change Problem 2](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CoinChange_TheNumberOfWays.java) - 주어진 종류의 코인으로 특정 금액을 만들 수 있는 경우의 수(조합의 수) (동전의 개수는 무한)
 - [0,1 Knapsack - 0, 1 배낭 문제](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Knapsack_01.java)
 - [Unbounded Knapsack - 물건 수량 제한 없는 배낭 문제]
 - [LCS(Longest Common Subsequence)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LCS.java) - 최장 공통 부분순서(Compare with 3 Strings), Bottom Up Manner O(n^3)
