@@ -69,11 +69,11 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Topological Sort - Using DFS](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TopologicalSortUsingDFS.java) - Using DFS, O(V+E)
 
 ### Dynamic Programming - 동적 프로그래밍
-- [Fibonacci - Bottom up Manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Fibonacci.java)
+- [Fibonacci - Bottom up Manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Fibonacci.java) - n번째 피보나치 수열 구하기(반복적 방법), Iterative
 
-- Fibonacci - Top down Manner(Recursive + Memoization)
+- [Fibonacci - Top Down Manner] - n번째 피보나치 수열 구하기(재귀적 방법), Recursive + Memoization
 
-- [Maximum Sum Sub array(Kadene's Algorithm)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MaximumSumSubArray.java) - O(n)
+- [Maximum Sum Sub array(Kadene's Algorithm)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MaximumSumSubArray.java) - 배열에서의 연속된 부분배열의 최대 합, O(n)
 
 - [Coin Change Problem 1](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CoinChange_MinNumberOfCoins.java) - 주어진 종류의 코인으로 특정 금액을 만드는데 드는 가능한 최소의 동전 수 (동전의 개수는 무한)
 
@@ -135,13 +135,13 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### Cut Edge and Articulation Point - 단절선과 단절점
 - [Cut Edge](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CutEdge.java) - O(V+E)
 
+- [Articulation Point](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ArticulationPoint.java) - O(V+E)
+
 ### Cycle Detection Algorithm in a graph - 그래프에서의 사이클 탐지
 
-- Cycle Detection in a Directed Graph -  DFS(Backward Edge가 있으면 사이클) 사용
+- Cycle Detection in a Directed Graph - 방향 그래프에서의 사이클 탐지, DFS 사용 - O(V+E)
 
-- Cycle Detection in a UnDirected Graph - 유니온 파인드 사용
-
-- [Articulation Point](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ArticulationPoint.java) - O(V+E)
+- Cycle Detection in a UnDirected Graph - 비방향 그래프에서의 사이클 탐지, 유니온 파인드 사용 - O(V+E)
 
 ### LCA - 최소 공통 조상 (Euler Tour + Sparse Table(RMQ))
 - [LCA - Euler Tour + Sparse Table(RMQ)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LowestCommonAncestor.java) Euler Tour = O(n), Construction of Sparse Table = O(nlogn), LCA Query = O(1), Total = O(nlogn)
