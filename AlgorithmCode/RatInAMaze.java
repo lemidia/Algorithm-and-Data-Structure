@@ -36,7 +36,7 @@ public class RatInAMaze {
         // Goal Point [n-1, n-1]
 
 
-        int maze[][] = {
+        int maze1[][] = {
                 {1, 1, 0, 0, 0, 0},
                 {0, 1, 1, 1, 1, 1},
                 {1, 1, 0, 0, 0, 0},
@@ -46,9 +46,48 @@ public class RatInAMaze {
         };
 
         // Path indicates Available Path of Maze
-        int path[][] = new int[maze.length][maze.length];
+        int path[][] = new int[maze1.length][maze1.length];
 
-        if (solve(0, 0, maze.length, maze, path)) {
+        if (solve(0, 0, maze1.length, maze1, path)) {
+            System.out.println("Solved!" + "\n");
+            System.out.println("Available Path is follow" + "\n");
+            for (int i = 0; i < path.length; i++) {
+                for (int j = 0; j < path[i].length; j++) {
+                    System.out.print(path[i][j] + " ");
+                }
+                System.out.println();
+            }
+        } else {
+            System.out.println("Not Solved!" + "\n");
+        }
+
+        System.out.println("\n*****************\n");
+
+        // Output:
+        // Solved!
+        //
+        // Available Path is follow
+        //
+        // 1 1 0 0 0 0
+        // 0 1 0 0 0 0
+        // 0 1 0 0 0 0
+        // 0 1 1 1 1 0
+        // 0 0 0 0 1 0
+        // 0 0 0 0 1 1
+
+        int maze2[][] = {
+                {1, 1, 0, 0, 0, 0},
+                {0, 1, 1, 1, 1, 1},
+                {1, 1, 0, 0, 0, 0},
+                {0, 1, 1, 1, 1, 1},
+                {0, 1, 0, 0, 1, 0},
+                {1, 1, 1, 1, 0, 0},
+        };
+
+        // Path indicates Available Path of Maze
+        path = new int[maze2.length][maze2.length];
+
+        if (solve(0, 0, maze2.length, maze2, path)) {
             System.out.println("Solved!" + "\n");
             System.out.println("Available Path is follow" + "\n");
             for (int i = 0; i < path.length; i++) {
@@ -62,15 +101,6 @@ public class RatInAMaze {
         }
 
         // Output:
-        // Solved!
-        //
-        // Available Path is follow
-        //
-        // 1 1 0 0 0 0
-        // 0 1 0 0 0 0
-        // 0 1 0 0 0 0
-        // 0 1 1 1 1 0
-        // 0 0 0 0 1 0
-        // 0 0 0 0 1 1
+        // Not Solved!
     }
 }
