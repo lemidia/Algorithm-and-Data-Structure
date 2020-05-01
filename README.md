@@ -18,9 +18,11 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### Back Tracking - 백트래킹
 - [Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/StringPermutation.java) - O(n!) 순열
 
-- [Power Set Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/PowerSet.java) - O(2^n)
+- [Power Set Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/PowerSet.java) - O(2^n) 모든 조합 나열
 
 - [N Queen Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/NQueen.java) - N x N 격자판에 N개의 퀸을 서로 공격하지 않으면서 놓을 수 있는가?
+
+- [Rat In A Maze Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/RatInAMaze.java) - 미로찾기 문제
 
 - [Sudoku](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sudoku.java) - 스도쿠, 숫자 퍼즐 문제
 
@@ -132,6 +134,12 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 ### Cut Edge and Articulation Point - 단절선과 단절점
 - [Cut Edge](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CutEdge.java) - O(V+E)
+
+### Cycle Detection Algorithm in a graph - 그래프에서의 사이클 탐지
+
+- Cycle Detection in a Directed Graph -  DFS(Backward Edge가 있으면 사이클) 사용
+
+- Cycle Detection in a UnDirected Graph - 유니온 파인드 사용
 
 - [Articulation Point](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ArticulationPoint.java) - O(V+E)
 
