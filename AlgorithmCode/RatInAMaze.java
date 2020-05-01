@@ -35,6 +35,7 @@ public class RatInAMaze {
         // Start Point [0, 0]
         // Goal Point [n-1, n-1]
 
+        System.out.println("\n***** Case 1 *****\n");
 
         int maze1[][] = {
                 {1, 1, 0, 0, 0, 0},
@@ -61,8 +62,6 @@ public class RatInAMaze {
             System.out.println("Not Solved!" + "\n");
         }
 
-        System.out.println("\n*****************\n");
-
         // Output:
         // Solved!
         //
@@ -74,6 +73,8 @@ public class RatInAMaze {
         // 0 1 1 1 1 0
         // 0 0 0 0 1 0
         // 0 0 0 0 1 1
+
+        System.out.println("\n***** Case 2 *****\n");
 
         int maze2[][] = {
                 {1, 1, 0, 0, 0, 0},
