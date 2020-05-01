@@ -6,11 +6,11 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 
 ### DFS & BFS - 깊이우선탐색 & 너비우선탐색
-- [DFS - Recursion manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/DFSRecursion.java) - O(V+E)
-- [BFS - Using Queue](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BreadthFirstSearch.java) - O(V+E)
+- [DFS - Recursion manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/DFSRecursion.java) - O(V+E) [해당 알고리즘 블로그 글 보기](https://lemidia.github.io/algorithm/DFS-Implementation-recursive/)
+- [BFS - Using Queue](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BreadthFirstSearch.java) - O(V+E) [해당 알고리즘 블로그 글 보기](https://lemidia.github.io/algorithm/BFS-Implementation/)
 
 ### Binary Search - 이분탐색 
-- [Binary Search - Iterative manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BinarySearch.java) - O(logn)
+- [Binary Search - Iterative manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BinarySearch.java) - O(logn) [해당 알고리즘 블로그 글 보기](https://lemidia.github.io/algorithm/binary-search/)
 - [Binary Search - Recursive manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BinarySearchRecursive.java) - O(logn)
 
 ### Back Tracking - 백트래킹
@@ -20,18 +20,25 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Sudoku](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sudoku.java) - 스도쿠, 숫자 퍼즐 문제
 
 ### Tree Algorithm - 트리 알고리즘
-- [Pre Order, In Order, Post Order - 전위 순회, 중위 순회, 후위 순회](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinaryTree.java)
+- [Pre Order, In Order, Post Order - 전위 순회, 중위 순회, 후위 순회](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinaryTree.java) [해당 알고리즘 블로그 글 보기](https://lemidia.github.io/algorithm/treeTraversal/)
+
 - [Center of Tree](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CenterOfTree.java) - 트리의 중심
 - Sum of leaf - 잎 노드들의 합
 
 
 ### Shortest Path - 최단거리 알고리즘
 - [Dijkstra Algorithm - Priority Queue(Binary Heap)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/DijkstraAlgorithm.java) -  Binary Heap 적용 O(E(logV)
+
 - [Dijkstra Algorithm - Min Indexed Heap](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/DijkstraWithMinIndexedHeap.java) - Indexed Priority Queue 적용 O(V(logV)
+
 - [Floyd Washall Algorithm - All Pair Shortest Path](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/FloydWarshallSolver.java) - 모든 쌍 최단경로 O(v^3)
-- [SPFA - Shortest Path Faster Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/ShortestPathFasterAlgorithm.java) - O(E) on Average. Not proved.
+
+- [SPFA - Shortest Path Faster Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/ShortestPathFasterAlgorithm.java) - O(E) on Average. Not proved. [해당 알고리즘 블로그 글 보기](https://lemidia.github.io/algorithm/SPFA/)
+
 - [Bellman Ford - Adjacency List](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/BellmanFordAdjacencyList.java) - O(VE)
+
 - [Bellman Ford - Edge List](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/BellmanFordEdgeList.java) - O(VE)
+
 - [Shortest Path On DAG Using TopSort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/ShortestPathOnDAG.java) - 위상정렬 적용 후 위상순서에 따라 변 경감 연산 수행 O(V+E)
 
 ### Sorting - 정렬
@@ -53,9 +60,10 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Maximum Sum Sub array(Kadene's Algorithm)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MaximumSumSubArray.java) - O(n)
 - [Coin Change Problem 1](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CoinChange_MinNumberOfCoins.java) - 주어진 종류의 코인으로 특정 금액을 만드는데 드는 가능한 최소의 동전 수 (동전의 개수는 무한)
 - [Coin Change Problem 2](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CoinChange_TheNumberOfWays.java) - 주어진 종류의 코인으로 특정 금액을 만들 수 있는 경우의 수(조합의 수) (동전의 개수는 무한)
-- [0,1 Knapsack - 0, 1 배낭 문제](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Knapsack_01.java)
-- [Unbounded Knapsack - 물건 수량 제한 없는 배낭 문제]
-- [LCS(Longest Common Subsequence)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LCS.java) - 최장 공통 부분순서(Compare with 3 Strings), Bottom Up Manner O(n^3)
+- [0 1 Knapsack](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Knapsack_01.java) - 물건의 수량이 최대 1개인 배낭 문제
+- [Unbounded Knapsack] - 물건의 수량이 제한 없는 배낭 문제
+- [LCS(Longest Common Subsequence)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LCS.java) - 최장 공통 부분 순서(Compare with 3 Strings), Bottom Up Manner O(n^3)
+- LCS(Longest Common Substring) - 최장 공통 부분 문자열(Compare with 2 Strings), Bottom Up Manner O(n^2)
 - [LIS(Longest Increasing Subsequence)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LongestIncreasingSubSequence.java) - 최장 증가 부분순서, Bottom Up Manner O(n^2)
 - Edit Distance - 편집거리
 - [격자 경로 문제](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/HowManyPaths.java)
