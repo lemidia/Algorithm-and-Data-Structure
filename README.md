@@ -50,7 +50,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Shortest Path On DAG Using TopSort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/ShortestPathOnDAG.java) - 위상정렬 적용 후 위상순서에 따라 변 경감 연산 수행 O(V+E)
 
-- [Shortest Path On A Graph Using BFS] - 그래프에서 모든 Edge의 가중치가 같은 상황에서의 최단경로 O(V+E)
+- [Shortest Path On A Graph Using BFS](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/ShortestPathOnAllSameWeightedGraph.java) - 그래프에서 모든 Edge의 가중치가 같은 상황에서의 최단경로 O(V+E)
 
 ### Sorting - 정렬
 - [Quick sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/QuickSort.java) - Worst case: O(n^2), Average case: O(nlogn) where n is the number of item in an array
@@ -65,7 +65,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Insertion sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/InsertionSort.java) - O(n^2)
 
-- Heap sort - Worst case: O(n^2)
+- Heap sort - Worst case: O(nlogn)
 
 ### Topological Sort - 위상정렬
 - [Topological Sort - Using In Degree](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TopologicalSort.java) - Using In Degree, O(V+E)
