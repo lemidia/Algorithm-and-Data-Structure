@@ -58,7 +58,7 @@ public class EdmondsKarp {
         e.backward.flow-=bottleNeck;
     }
 
-    static void creatFlowGraph(){
+    static void createFlowGraph(){
         maxFlow = 0;
         token = 0;
         visited = new int[n];
@@ -115,13 +115,10 @@ public class EdmondsKarp {
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st;
-
         n = 6;
         source = n - 1;
         sink = n - 2;
-        creatFlowGraph();
+        createFlowGraph();
         // Source edges
         addEdge(source, 0, 10);
         addEdge(source, 1, 10);

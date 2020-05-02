@@ -6,12 +6,12 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 
 ### DFS & BFS - 깊이우선탐색 & 너비우선탐색
-- [DFS - Recursion manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/DFSRecursion.java) - O(V+E) [해당 알고리즘 블로그 글 보기](https://lemidia.github.io/algorithm/DFS-Implementation-recursive/)
+- [DFS - Recursion manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/DFSRecursion.java) - O(V+E) 
 
-- [BFS - Using Queue](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BreadthFirstSearch.java) - O(V+E) [해당 알고리즘 블로그 글 보기](https://lemidia.github.io/algorithm/BFS-Implementation/)
+- [BFS - Using Queue](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BreadthFirstSearch.java) - O(V+E) 
 
 ### Binary Search - 이분탐색 
-- [Binary Search - Iterative manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BinarySearch.java) - O(logn) [해당 알고리즘 블로그 글 보기](https://lemidia.github.io/algorithm/binary-search/)
+- [Binary Search - Iterative manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BinarySearch.java) - O(logn) 
 
 - [Binary Search - Recursive manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BinarySearchRecursive.java) - O(logn)
 
@@ -115,19 +115,19 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Combination](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Combination.java) - 조합 nCr
 
 ### Minimum Spanning Tree Algorithm - 최소 신장 트리 알고리즘 
-- [Kruskal's Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/KruskalAlgorithm.cpp)
+- [Kruskal's Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/KruskalAlgorithm.cpp) - 가능한 가중치가 가장 작은 간선으로 시작해 N-1개의 간선을 선택하는 Greedy Algorithm
 
 - Prim's Algorithm
 
 ### Network Flow - 네트워크 유량
-- [Ford-Fulkerson method](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/FordFulkersonMethod.java)
+- [Ford-Fulkerson method](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/FordFulkersonMethod.java) - 최대유량 알고리즘
 
-- [Edmonds Karp](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/EdmondsKarp.java) - Ford Fullkerson method + BFS 탐색 적용
+- [Edmonds Karp Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/EdmondsKarp.java) - 최대유량 알고리즘, Ford Fulkerson method에서의 탐색방법을 BFS로 적용
 
-- [Max Flow Min Cost](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MinCostMaxFlow.java) - SPFA 적용
+- [Min Cost Max Flow](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MinCostMaxFlow.java) - 최소비용 최대유량 알고리즘, 최소비용에는 SPFA Algorithm, 최대비용에는 Edmonds Karp Algorithm 적용
 
 ### Bipartite Matching - 이분매칭
-- [Bipartite Matching] - DFS Manner
+- Bipartite Matching - DFS Manner
 
 ### Strongly Conneted Component - 강한 연결 요소
 - Tarjan's Algorithm - O(V+E)
@@ -143,7 +143,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Cycle Detection in a Directed Graph](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CycleDetectionOnDirectedGraph.java) - 방향 그래프에서의 사이클 탐지, DFS 사용 - O(V+E)
 
-- Cycle Detection in a UnDirected Graph - 비방향 그래프에서의 사이클 탐지, 유니온 파인드 사용 - O(V+E)
+- [Cycle Detection in a UnDirected Graph](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CycleDetectionOnUndirectedGraph.java) - 비방향 그래프에서의 사이클 탐지, 유니온 파인드 사용 - O(V+E)
 
 ### LCA - 최소 공통 조상 (Euler Tour + Sparse Table(RMQ))
 - [LCA - Euler Tour + Sparse Table(RMQ)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LowestCommonAncestor.java) Euler Tour = O(n), Construction of Sparse Table = O(nlogn), LCA Query = O(1), Total = O(nlogn)
