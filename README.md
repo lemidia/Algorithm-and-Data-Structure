@@ -157,6 +157,10 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - Rabin Karp Algorithm
 
+### Other Algorithm
+
+- [Count Inversions In An Array](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CountInversionsInAnArray.java) - 인덱스 위치가 i < j 이면서 A[i] > A[j]인 원소들을 역전관계라고 한다. 역전관계의 원소들이 해당 배열안에 몇개나 있는지 찾는 알고리즘. 머지소트를 이용한다. O(nlogn), Naive Approach : O(n^2)
+
 ## Data structure
 In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data. - Wikipedia
 

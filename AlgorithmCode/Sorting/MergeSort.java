@@ -33,7 +33,7 @@ public class MergeSort {
         }
         */
 
-        for (int l = p; l <r+1 ; l++) {
+        for (int l = p; l < r+1 ; l++) {
             if (i<=q && (j>r || data[i] < data[j])){
                 temp[k++] = data[i++];
             }else
