@@ -105,9 +105,9 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Sieve Of Eratosthenes](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Eratosthenes.java) - 에라토스테네스의 체
 
 ### GCD, LCM - 최대공약수, 최소공배수
-- [GCD] - 최대공약수
+- [GCD](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/GCD.java) - 최대공약수
 
-- [LCM] - 최소공배수
+- [LCM](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LCM.java) - 최소공배수
 
 ### Permutation & Combination - 순열과 조합
 - [Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Permutation.java) - 순열 nPr, 순서화
