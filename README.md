@@ -15,7 +15,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Binary Search - Recursive manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BinarySearchRecursive.java) - O(logn)
 
-### Back Tracking - 백트래킹
+### Back Tracking + Brute Force - 백트래킹 + 다해보기
 - [Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/StringPermutation.java) - O(n!) 순열
 
 - [Power Set Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/PowerSet.java) - O(2^n) 모든 조합 나열
@@ -26,6 +26,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Sudoku](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sudoku.java) - 스도쿠, 숫자 퍼즐 문제
 
+- [Sum Of Subset](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SumOfSubset.java) - 집합에서의 원소들을 조합해서 특정 값을 만들 수 있는지?
+
 ### Tree Algorithm - 트리 알고리즘
 - [Pre Order, In Order, Post Order - 전위 순회, 중위 순회, 후위 순회](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinaryTree.java) [해당 알고리즘 블로그 글 보기](https://lemidia.github.io/algorithm/treeTraversal/)
 
@@ -33,7 +35,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - Sum of leaf - 잎 노드들의 합
 
 
-### Shortest Path - 최단거리 알고리즘
+### Shortest Path - 최단경로 알고리즘
 - [Dijkstra Algorithm - Priority Queue(Binary Heap)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/DijkstraAlgorithm.java) -  Binary Heap 적용 O(E(logV)
 
 - [Dijkstra Algorithm - Min Indexed Heap](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/DijkstraWithMinIndexedHeap.java) - Indexed Priority Queue 적용 O(V(logV)
@@ -143,7 +145,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Cycle Detection in a Directed Graph](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CycleDetectionOnDirectedGraph.java) - 방향 그래프에서의 사이클 탐지, DFS 사용 - O(V+E)
 
-- [Cycle Detection in a UnDirected Graph](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CycleDetectionOnUndirectedGraph.java) - 비방향 그래프에서의 사이클 탐지, 유니온 파인드 사용 - O(V+E)
+- [Cycle Detection in an UnDirected Graph](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CycleDetectionOnUndirectedGraph.java) - 비방향 그래프에서의 사이클 탐지, 유니온 파인드 사용 - O(V+E)
 
 ### LCA - 최소 공통 조상 (Euler Tour + Sparse Table(RMQ))
 - [LCA - Euler Tour + Sparse Table(RMQ)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LowestCommonAncestor.java) Euler Tour = O(n), Construction of Sparse Table = O(nlogn), LCA Query = O(1), Total = O(nlogn)
