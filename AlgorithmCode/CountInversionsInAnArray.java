@@ -33,6 +33,11 @@ public class CountInversionsInAnArray {
                 if(data[i] <= data[j]){
                     temp[k++] = data[i++];
                 }else{
+                    // i<j이면서 data[i] > data[j]인 경우이므로 역전관계이다.
+                    // left sub array와 right sub array는 이미 정렬이 완료된 상태이고 (여기서는 오름차순)
+                    // i<j이면서 data[i] > data[j] 이면 data[j]보다 큰 원소들이 left sub array에
+                    // (q+1)-i개 있게 된다.
+                    
                     inversion += (q+1)-i;
                     temp[k++] = data[j++];
                 }
@@ -64,6 +69,9 @@ public class CountInversionsInAnArray {
         MergeSort mg = new MergeSort();
         System.out.print("The number of inversion Element is : ");
         System.out.println(mg.divide(arr, 0, arr.length-1));
+
+        // Output:
+        // The number of inversion Element is : 45
 
     }
 }
