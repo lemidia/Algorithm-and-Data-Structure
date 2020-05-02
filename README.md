@@ -93,6 +93,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [LIS(Longest Increasing Subsequence)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LongestIncreasingSubSequence.java) - 최장 증가 부분순서, Bottom Up Manner O(n^2)
 
+- [Maximum Sub Square Matrix of 1](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MaximumSubSquareMatrix.java) - 1로 이루어진 가장 큰 정사각형 부분 행렬 구하기
+
 - Edit Distance - 편집거리
 
 - [격자 경로 문제](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/HowManyPaths.java)
