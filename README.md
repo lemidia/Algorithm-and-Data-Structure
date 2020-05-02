@@ -15,23 +15,24 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Binary Search - Recursive manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BinarySearchRecursive.java) - O(logn)
 
-### Back Tracking + Brute Force - 백트래킹 + 다해보기
+### Back Tracking + Brute Force - 백트래킹 + 전체탐색 다 해보기
 - [Permutation](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/StringPermutation.java) - O(n!) 순열
 
 - [Power Set Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/PowerSet.java) - O(2^n) 모든 조합 나열
 
-- [N Queen Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/NQueen.java) - N x N 격자판에 N개의 퀸을 서로 공격하지 않으면서 놓을 수 있는가?
+- [N Queen Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/NQueen.java) - N x N 격자판에 N개의 퀸이 서로 공격하지 않으면서 놓아지게 하는 법 구하기
 
 - [Rat In A Maze Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/RatInAMaze.java) - 미로찾기 문제
 
 - [Sudoku](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sudoku.java) - 스도쿠, 숫자 퍼즐 문제
 
-- [Sum Of Subset](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SumOfSubset.java) - 집합에서의 원소들을 조합해서 특정 값을 만들 수 있는지?
+- [Sum Of Subset](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SumOfSubset.java) - 집합에서의 원소들을 조합해서 특정 값을 만들 수 있는지? O(2^n)
 
 ### Tree Algorithm - 트리 알고리즘
 - [Pre Order, In Order, Post Order - 전위 순회, 중위 순회, 후위 순회](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinaryTree.java) [해당 알고리즘 블로그 글 보기](https://lemidia.github.io/algorithm/treeTraversal/)
 
 - [Center of Tree](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CenterOfTree.java) - 트리의 중심
+
 - Sum of leaf - 잎 노드들의 합
 
 
@@ -53,19 +54,19 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Shortest Path On A Graph Using BFS](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/ShortestPathOnAllSameWeightedGraph.java) - 그래프에서 모든 Edge의 가중치가 같은 상황에서의 최단경로 O(V+E)
 
 ### Sorting - 정렬
-- [Quick sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/QuickSort.java) - Worst case: O(n^2), Average case: O(nlogn) where n is the number of item in an array
+- [Quick sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/QuickSort.java) - 빠른정렬 Worst case: O(n^2), Average case: O(nlogn) where n is the number of item in an array
 
-- [Merge sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/mergesort.java) - O(nlogn)
+- [Merge sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/mergesort.java) - 병합정렬 O(nlogn)
 
-- [Counting sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/CountingSort.java) - O(kn) where k is upper bound
+- [Counting sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/CountingSort.java) - 계수정렬 O(kn) where k is upper bound
 
-- [Selection sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/SelectionSort.java) - O(n^2)
+- [Selection sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/SelectionSort.java) - 선택정렬 O(n^2)
 
-- [Bubble sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/BubbleSort.java) - O(n^2)
+- [Bubble sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/BubbleSort.java) - 버블소트 O(n^2)
 
-- [Insertion sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/InsertionSort.java) - O(n^2)
+- [Insertion sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/InsertionSort.java) - 삽입정렬 O(n^2)
 
-- Heap sort - Worst case: O(nlogn)
+- [Heap sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/HeapSort.java) - 힙 정렬 Worst case: O(nlogn)
 
 ### Topological Sort - 위상정렬
 - [Topological Sort - Using In Degree](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TopologicalSort.java) - Using In Degree, O(V+E)
