@@ -12,7 +12,6 @@ public class LCA_Naive {
 
     /*
     Sample Tree used in this code.
-
             0
           /   \
          /     \
@@ -25,7 +24,6 @@ public class LCA_Naive {
      LCA of 3,4 = 1
      LCA of 4,5 = 0
      LCA of 3,3 = 3
-     
      */
 
     public static TreeNode lca (TreeNode at, int a, int b) {
@@ -45,9 +43,13 @@ public class LCA_Naive {
             return right;
     }
 
+    public static boolean isValid (int a, int b, int n) {
+        return 0<= a && a < n && 0<= b && b < n;
+    }
 
     public static void main(String[] args) {
         // Construct Sample Tree
+        int n = 7; // The Number of node
         TreeNode root = new TreeNode(0);
         root.children[0] = new TreeNode(1);
         root.children[1] = new TreeNode(2);
@@ -56,11 +58,25 @@ public class LCA_Naive {
         root.children[1].children[0] = new TreeNode(5);
         root.children[1].children[1] = new TreeNode(6);
 
-        TreeNode lca = lca(root, 3, 5);
-        System.out.println(lca.index);
-        lca = lca(root, 1, 4);
-        System.out.println(lca.index);
-        lca = lca(root, 1, 4);
-        System.out.println(lca.index);
+
+        // Case 1:
+        int a = 3;
+        int b = 5;
+        if (isValid(a, b, n)){
+            TreeNode lca = lca(root, a, a);
+            System.out.println("LCA is "  + lca.index + "\n");
+        } else {
+            System.out.println("Not valid input\n");
+        }
+
+        // Case 2:
+        a = 8;
+        b = 5;
+        if (isValid(a, b, n)){
+            TreeNode lca = lca(root, a, b);
+            System.out.println("LCA is "  + lca.index + "\n");
+        } else {
+            System.out.println("Not valid input\n");
+        }
     }
 }
