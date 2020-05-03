@@ -150,8 +150,10 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Cycle Detection in an UnDirected Graph](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CycleDetectionOnUndirectedGraph.java) - 비방향 그래프에서의 사이클 탐지, 유니온 파인드 사용 - O(V+E)
 
-### LCA - 최소 공통 조상 (Euler Tour + Sparse Table(RMQ))
-- [LCA - Euler Tour + Sparse Table(RMQ)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LowestCommonAncestor.java) Euler Tour = O(n), Construction of Sparse Table = O(nlogn), LCA Query = O(1), Total = O(nlogn)
+### LCA - 최소 공통 조상 
+- [LCA - Euler Tour + Sparse Table(RMQ)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LowestCommonAncestor.java) Euler Tour = O(n), Construction of Sparse Table = O(nlogn), LCA Query = O(1)
+
+- [LCA - Naive Approach](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LCA_Naive.java) LCA Query = O(n)
 
 ### String Pattern Matching - 문자열 패턴 매칭
 - [KMP Pattern Matching Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/KMP.java) - KMP(Knuth, Morris, Pratt) 패턴 매칭 알고리즘, O(n+m) - n is pattern matching and m is lps construction
