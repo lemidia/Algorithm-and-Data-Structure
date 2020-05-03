@@ -29,11 +29,13 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Sum Of Subset](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SumOfSubset.java) - 집합에서의 원소들을 조합해서 특정 값을 만들 수 있는지? O(2^n)
 
 ### Tree Algorithm - 트리 알고리즘
-- [Pre Order, In Order, Post Order - 전위 순회, 중위 순회, 후위 순회](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinaryTree.java) [해당 알고리즘 블로그 글 보기](https://lemidia.github.io/algorithm/treeTraversal/)
+- [Pre Order, In Order, Post Order - 전위 순회, 중위 순회, 후위 순회](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/DataStructure/BinaryTree.java) [해당 알고리즘 블로그 글 보기](https://lemidia.github.io/algorithm/treeTraversal/) 기본적인 트리의 순회 방법
 
-- [Center of Tree](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CenterOfTree.java) - 트리의 중심
+- [Center of a Binary Tree](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CenterOfTree.java) - 트리의 중심(1개 또는 최대 2개가 될 수 있다.)
 
-- Sum of leaf - 잎 노드들의 합
+- [Diameter of a Binary Tree](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/DiameterOfTree.java) - 트리의 지름(트리에서 가장 긴 Path의 노드 개수)
+
+- Sum of Leaf Nodes  - 잎 노드들의 합
 
 
 ### Shortest Path - 최단경로 알고리즘
