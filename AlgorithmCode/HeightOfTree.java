@@ -1,4 +1,4 @@
-public class DiameterOfTree {
+public class HeightOfTree {
 
     static class TreeNode {
         int index;
@@ -23,26 +23,23 @@ public class DiameterOfTree {
 
      */
 
-    public static int diameterOfTree (TreeNode root) {
+    public static int heightOfTree (TreeNode root) {
         if (root == null)
             return 0;
-        // Diameter of the tree is
-        // root diameter which is 1 + left sub tree height + right sub tree height
 
-        return heightOfSubTree(root.children[0], 1)
-                + heightOfSubTree(root.children[1], 1) + 1;
+        return heightOfTree(root, 1);
     }
 
-    public static int heightOfSubTree (TreeNode at, int diameter) {
+    public static int heightOfTree (TreeNode at, int height) {
         if (at == null)
             return 0;
 
-        int left = heightOfSubTree(at.children[0], diameter + 1);
-        int right = heightOfSubTree(at.children[1], diameter + 1);
+        int left = heightOfTree(at.children[0], height + 1);
+        int right = heightOfTree(at.children[1], height + 1);
 
         if (left == 0 && right == 0)
-            return diameter;
-
+            return height;
+        
         return Math.max(left, right);
     }
 
@@ -54,10 +51,10 @@ public class DiameterOfTree {
         root.children[0].children[0] = new TreeNode(3);
         root.children[0].children[1] = new TreeNode(4);
 
-        int diameter = diameterOfTree(root);
-        System.out.println("Diameter of the tree is : " + diameter);
+        int diameter = heightOfTree(root);
+        System.out.println("Height of the tree is : " + diameter);
 
         // Output:
-        // Diameter of the tree is : 4
+        // Diameter of the tree is : 3
     }
 }
