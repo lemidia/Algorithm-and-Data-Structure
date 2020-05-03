@@ -43,6 +43,15 @@ public class LCA_Naive {
             return right;
     }
 
+    public static void lcaHelper(int a, int b, int n, TreeNode root) {
+        if (isValid(a, b, n)){
+            TreeNode lca = lca(root, a, b);
+            System.out.println("LCA is "  + lca.index + "\n");
+        } else {
+            System.out.println("Not valid input\n");
+        }
+    }
+
     public static boolean isValid (int a, int b, int n) {
         return 0<= a && a < n && 0<= b && b < n;
     }
@@ -59,24 +68,10 @@ public class LCA_Naive {
         root.children[1].children[1] = new TreeNode(6);
 
 
-        // Case 1:
-        int a = 3;
-        int b = 5;
-        if (isValid(a, b, n)){
-            TreeNode lca = lca(root, a, a);
-            System.out.println("LCA is "  + lca.index + "\n");
-        } else {
-            System.out.println("Not valid input\n");
-        }
+        // Case 1: Query about LCA of 3, 5
+        lcaHelper(3, 5, n, root);
 
-        // Case 2:
-        a = 8;
-        b = 5;
-        if (isValid(a, b, n)){
-            TreeNode lca = lca(root, a, b);
-            System.out.println("LCA is "  + lca.index + "\n");
-        } else {
-            System.out.println("Not valid input\n");
-        }
+        // Case 2: Query about LCA of 8, 5
+        lcaHelper(8, 5, n, root);
     }
 }
