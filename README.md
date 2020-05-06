@@ -162,7 +162,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### String Pattern Matching - 문자열 패턴 매칭
 - [KMP Pattern Matching Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/KMP.java) - KMP(Knuth, Morris, Pratt) 패턴 매칭 알고리즘, O(n+m) - n is pattern matching and m is lps construction
 
-- Boyer Moore Algorithm - Bad Character Rule
+- [Boyer Moore Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/BoyerMoore.java) - Bad Character Rule
 
 - Rabin Karp Algorithm
 
