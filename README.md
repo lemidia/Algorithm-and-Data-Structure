@@ -80,7 +80,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### Dynamic Programming - 동적 프로그래밍
 - [Fibonacci - Bottom up Manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Fibonacci.java) - n번째 피보나치 수열 구하기(반복적 방법), Iterative
 
-- [Fibonacci - Top Down Manner] - n번째 피보나치 수열 구하기(재귀적 방법), Recursive + Memoization
+- [Fibonacci - Top Down Manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Fibonacci_Recursion.java) - n번째 피보나치 수열 구하기(재귀적 방법), Recursive + Memoization
 
 - [Maximum Sum Sub array(Kadene's Algorithm)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MaximumSumSubArray.java) - 배열에서의 연속된 부분배열의 최대 합, O(n)
 
