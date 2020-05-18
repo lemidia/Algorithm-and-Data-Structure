@@ -15,7 +15,7 @@ public class MinCostMaxFlow {
     static int maxFlow;
     static int minCostMaxFlow;
 
-    static void creatGraph(){
+    static void createGraph(){
         prev = new Edge[n];
         dist = new int[n];
         onQueue = new boolean[n];
@@ -94,7 +94,7 @@ public class MinCostMaxFlow {
         n = 6;
         source = n-1;
         sink = n-2;
-        creatGraph();
+        createGraph();
         addEdge(source, 1, 4, 10);
         addEdge(source, 2, 2, 30);
         addEdge(1, 2, 2, 10);
