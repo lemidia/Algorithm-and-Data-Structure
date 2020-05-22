@@ -100,15 +100,15 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Maximum Sub Square Matrix of 1](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MaximumSubSquareMatrix.java) - 1로 이루어진 가장 큰 정사각형 부분 행렬 구하기
 
-- Edit Distance - 편집거리
-
 - [격자 경로 문제](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/HowManyPaths.java)
 
+- [Stair Case Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Upstair.java) N번 계단 까지 계단을 올라가는 방법의 수
+
+- [Tiling Dominoes](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TilingDominoes.java) - 타일링 문제, e.g 2 x N or 3 x N and so on 
+
+- Edit Distance - 편집거리
+
 - Matrix Multiplication
-
-- [Stair Case Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Upstair.java)
-
-- [Tiling Dominoes](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TilingDominoes.java)
 
 ### Prime - 소수
 - [Sieve Of Eratosthenes](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Eratosthenes.java) - 에라토스테네스의 체
