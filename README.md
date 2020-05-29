@@ -72,6 +72,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Heap sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/HeapSort.java) - 힙 정렬 Worst case: O(nlogn)
 
+- [Radix sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/RadixSort.java) - 기수 정렬
+
 ### Topological Sort - 위상정렬
 - [Topological Sort - Using In Degree](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TopologicalSort.java) - Using In Degree, O(V+E)
 
@@ -102,7 +104,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [격자 경로 문제](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/HowManyPaths.java)
 
-- [Stair Case Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Upstair.java) N번 계단 까지 계단을 올라가는 방법의 수
+- [Stair Case Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Upstair.java) N번 계단 까지 올라가는 방법의 수
 
 - [Tiling Dominoes](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TilingDominoes.java) - 타일링 문제, e.g 2 x N or 3 x N and so on 
 
