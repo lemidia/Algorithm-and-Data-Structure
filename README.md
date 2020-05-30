@@ -58,11 +58,11 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [Shortest Path On A Graph Using BFS](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/ShortestPath/ShortestPathOnAllSameWeightedGraph.java) - 그래프에서 모든 Edge의 가중치가 같은 상황에서의 최단경로 O(V+E)
 
 ### Sorting - 정렬
-- [Quick sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/QuickSort.java) - 빠른정렬 Worst case: O(n^2), Average case: O(nlogn) where n is the number of item in an array
+- [Quick sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/QuickSort.java) - 빠른정렬, Worst case: O(n^2), Average case: O(nlogn) where n is the number of item in an array
 
-- [Merge sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/mergesort.java) - 병합정렬 O(nlogn)
+- [Merge sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MergeSort.java) - 병합정렬 O(nlogn)
 
-- [Counting sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/CountingSort.java) - 계수정렬 O(kn) where k is upper bound
+- [Counting sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/CountingSort.java) - 카운팅 소트, 계수정렬, O(kn) where k is upper bound
 
 - [Selection sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/SelectionSort.java) - 선택정렬 O(n^2)
 
