@@ -37,6 +37,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Diameter of a Binary Tree](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/DiameterOfTree.java) - 트리의 지름(트리에서 가장 긴 경로의 노드 개수)
 
+- [Sum of Nodes](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TreeSum.java)  - 트리에서의 노드들의 합
+
 - Sum of Leaf Nodes  - 잎 노드들의 합
 
 
@@ -60,15 +62,15 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### Sorting - 정렬
 - [Quick sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/QuickSort.java) - 빠른정렬, Worst case: O(n^2), Average case: O(nlogn) where n is the number of item in an array
 
-- [Merge sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/MergeSort.java) - 병합정렬 O(nlogn)
+- [Merge sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/MergeSort.java) - 병합정렬 O(nlogn), Worst case: O(nlogn) where n is the number of item in an array
 
-- [Counting sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/CountingSort.java) - 카운팅 소트, 계수정렬, O(kn) where k is upper bound
+- [Counting sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/CountingSort.java) - 카운팅 소트, 계수정렬, O(kn) where k is upper bound number, n is the # of items in an array
 
-- [Selection sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/SelectionSort.java) - 선택정렬 O(n^2)
+- [Selection sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/SelectionSort.java) - 선택정렬 Worst case: O(n^2)
 
-- [Bubble sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/BubbleSort.java) - 버블소트 O(n^2)
+- [Bubble sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/BubbleSort.java) - 버블소트 Worst case: O(n^2)
 
-- [Insertion sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/InsertionSort.java) - 삽입정렬 O(n^2)
+- [Insertion sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/InsertionSort.java) - 삽입정렬 Worst case: O(n^2)
 
 - [Heap sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/HeapSort.java) - 힙 정렬 Worst case: O(nlogn)
 
@@ -81,7 +83,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Topological Sort - Using DFS](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TopologicalSortUsingDFS.java) - Using DFS, O(V+E)
 
-### Dynamic Programming - 동적 프로그래밍
+### Dynamic Programming - 동적 프로그래밍 (잘 알려진 문제들)
 - [Fibonacci - Bottom up Manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Fibonacci.java) - n번째 피보나치 수열 구하기(반복적 방법), Iterative
 
 - [Fibonacci - Top Down Manner](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Fibonacci_Recursion.java) - n번째 피보나치 수열 구하기(재귀적 방법), Recursive + Memoization
@@ -166,9 +168,9 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 - [LCA - Naive Approach](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LCA_Naive.java) LCA Query = O(n)
 
 ### String Pattern Matching - 문자열 패턴 매칭
-- [KMP Pattern Matching Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/KMP.java) - KMP(Knuth, Morris, Pratt) 패턴 매칭 알고리즘, O(n+m) - n is pattern matching and m is lps construction
+- [KMP Pattern Matching Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/KMP.java) - KMP(Knuth, Morris, Pratt) 패턴 매칭 알고리즘, O(n+m) where n is pattern matching and m is LPS construction (LPS : Longest Proper Prefix which is also Suffix)
 
-- [Boyer Moore Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BoyerMoore.java) - Bad Character Rule
+- [Boyer Moore Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/BoyerMoore.java) - Using Bad Character Rule
 
 - Rabin Karp Algorithm
 
