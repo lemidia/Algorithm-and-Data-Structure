@@ -60,7 +60,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### Sorting - 정렬
 - [Quick sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/QuickSort.java) - 빠른정렬, Worst case: O(n^2), Average case: O(nlogn) where n is the number of item in an array
 
-- [Merge sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MergeSort.java) - 병합정렬 O(nlogn)
+- [Merge sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/MergeSort.java) - 병합정렬 O(nlogn)
 
 - [Counting sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/CountingSort.java) - 카운팅 소트, 계수정렬, O(kn) where k is upper bound
 
