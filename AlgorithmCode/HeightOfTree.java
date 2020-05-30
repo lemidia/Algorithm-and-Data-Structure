@@ -51,10 +51,10 @@ public class HeightOfTree {
         root.children[0].children[0] = new TreeNode(3);
         root.children[0].children[1] = new TreeNode(4);
 
-        int diameter = heightOfTree(root);
-        System.out.println("Height of the tree is : " + diameter);
+        int height = heightOfTree(root);
+        System.out.println("Height of the tree is : " + height);
 
         // Output:
-        // Diameter of the tree is : 3
+        // Height of the tree is : 3
     }
 }
