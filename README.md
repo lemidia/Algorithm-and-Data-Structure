@@ -72,7 +72,9 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Heap sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/HeapSort.java) - 힙 정렬 Worst case: O(nlogn)
 
-- [Radix sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/RadixSort.java) - 기수 정렬
+- [Radix sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/RadixSort.java) - 기수 정렬, Time Complexity: O(nw) n = 정렬될 키의 개수, w = 정렬될 키 중에서 가장 큰 자릿수
+
+- [Bucket sort](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Sorting/BucketSort.java) - 버킷 소트
 
 ### Topological Sort - 위상정렬
 - [Topological Sort - Using In Degree](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TopologicalSort.java) - Using In Degree, O(V+E)
