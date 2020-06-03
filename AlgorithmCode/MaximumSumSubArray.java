@@ -20,6 +20,8 @@ public class MaximumSumSubArray {
 
     public static void main(String[] args) {
         int arr [] = {5,7,-13,2,8,10};
+        // Output:
+        // 20 (2 + 8 + 10)
         maximumSumSubArray(arr);
     }
 }
