@@ -44,6 +44,8 @@ public class CodingQuestion17_11 {
     public static void main(String[] args) {
         dot1();
         System.out.println(max);
+        //Output:
+        // 9
     }
 
     static class Point {
