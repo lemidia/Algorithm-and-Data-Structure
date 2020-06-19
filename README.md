@@ -100,7 +100,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [LCS(Longest Common Subsequence)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LCS.java) - 최장 공통 부분 순서(Compare with 3 Strings), Bottom Up Manner O(n^3)
 
-- LCS(Longest Common Substring) - 최장 공통 부분 문자열(Compare with 2 Strings), Bottom Up Manner O(n^2)
+- [LCS(Longest Common Substring)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LongestCommonSubstring.java) - 최장 공통 부분 문자열(Compare with 2 Strings), Bottom Up Manner O(n^2)
 
 - [LIS(Longest Increasing Subsequence)](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/LongestIncreasingSubSequence.java) - 최장 증가 부분순서, Bottom Up Manner O(n^2)
 
@@ -112,7 +112,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Tiling Dominoes](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TilingDominoes.java) - 타일링 문제, e.g 2 x N or 3 x N and so on 
 
-- Edit Distance - 편집거리
+- [Edit Distance](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/EditDistance.java) - 편집거리
 
 - Matrix Multiplication
 
