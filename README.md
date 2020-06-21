@@ -114,6 +114,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Edit Distance](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/EditDistance.java) - 편집거리
 
+- [Josephus Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/JosephusProblem.java)
+
 - Matrix Multiplication
 
 ### Prime - 소수
