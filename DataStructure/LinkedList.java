@@ -26,11 +26,11 @@ public class LinkedList {
     }
 
     public void addLast(int data){
-        Node newNode = new Node(data);
         if(size == 0){
             addFirst(data);
         }
         else {
+            Node newNode = new Node(data);
             tail.next = newNode;
             tail = newNode;
             size++;
@@ -38,7 +38,7 @@ public class LinkedList {
     }
 
     public void add(int k, int data){
-        if(k == 0 ){
+        if(k == 0){
             addFirst(data);
         }else{
             Node temp1 = node(k-1);
@@ -108,6 +108,13 @@ public class LinkedList {
         Node temp = node(k);
         return temp.data;
     }
+
+    // Output
+    // [30, 10, 20]
+    // 10
+    // [30, 20]
+    // 2
+    //20
 
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
