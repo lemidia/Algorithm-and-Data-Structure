@@ -35,9 +35,9 @@ public class Graph {
         addEdge(graph, 0, 1); // 0번과 1번을 정점으로 하는 간선을 생성한다.
         addEdge(graph, 0, 2); // 0번과 2번을 정점으로 하는 간선을 생성한다.
         addEdge(graph, 1, 2); // 1번과 2번을 정점으로 하는 간선을 생성한다.
-        addEdge(graph, 1, 3);
-        addEdge(graph, 2, 4);
-        addEdge(graph, 3, 4);
+        addEdge(graph, 1, 3); // 1번과 3번을 정점으로 하는 간선을 생성한다.
+        addEdge(graph, 2, 4); // 2번과 4번을 정점으로 하는 간선을 생성한다.
+        addEdge(graph, 3, 4); // 3번과 4번을 정점으로 하는 간선을 생성한다.
 
         graph.printGraph();
     }
