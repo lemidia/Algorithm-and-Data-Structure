@@ -114,11 +114,17 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Edit Distance](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/EditDistance.java) - 편집거리
 
-- [LPS](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/LongestPalindromeSubsequence.java) - 최장 팰린드롬 부분순서
+- [Longest Palindrome Subsequence](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/LongestPalindromeSubsequence.java) - 최장 팰린드롬 부분순서
 
-- [Josephus Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/JosephusProblem.java) - 조세퍼스 
+- [Josephus Problem](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/JosephusProblem.java) - 조세퍼스 문제
 
-- Matrix Multiplication
+### Dynamic Programming - 동적 프로그래밍 (추가)
+
+- [Mountain Scenes](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Scenes.java) - Problem Link : [Click Here](https://open.kattis.com/problems/scenes)
+
+- [Magical Cows](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/MagicalCows.java) - Problem Link : [Click Here](https://open.kattis.com/problems/magicalcows)
+
+- [Tiling Dominos](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TilingDominoes.java) - Problem Link : [Click Here](https://open.kattis.com/problems/tritiling)
 
 ### Prime - 소수
 - [Sieve Of Eratosthenes](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Eratosthenes.java) - 에라토스테네스의 체
