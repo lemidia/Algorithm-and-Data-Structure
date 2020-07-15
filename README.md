@@ -156,7 +156,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 ### Bipartite Matching - 이분매칭
 - Bipartite Matching - DFS Manner
 
-### Strongly Conneted Component - 강한 연결 요소
+### Strongly Connected Component - 강한 연결 요소
 - [Tarjan's Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/TarjanScc.java) - O(V+E)
 
 - [Kosaraju's Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/SCC_Kosaraju.java) - O(V+E)
