@@ -66,6 +66,7 @@ public class NQueen {
         // 1 3
         // 2 0
         // 3 2
+        
         if (nQueenHelper(N)) {
             System.out.println("\n" + "N Queen Exist on " + N + " x " + N + " Matrix" + "\n");
             System.out.println("points:");
