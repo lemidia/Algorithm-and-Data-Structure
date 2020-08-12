@@ -141,6 +141,8 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 
 - [Combination](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/Combination.java) - 조합 nCr
 
+- [Combination With Repetition](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/CombinationWithRepetition.java) - 중복 조합
+
 ### Minimum Spanning Tree Algorithm - 최소 신장 트리 알고리즘 
 - [Kruskal's Algorithm](https://github.com/lemidia/Algorithm-and-Data-Structure/blob/master/AlgorithmCode/KruskalAlgorithm.cpp) - 가능한 가중치가 가장 작은 간선으로 시작해 N-1개의 간선을 선택하는 Greedy Algorithm
 
